@@ -1,0 +1,23 @@
+{
+  "name": "d2.pub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev site",
+    "build": "vuepress build site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d2-projects/d2.pub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d2-projects/d2.pub/issues"
+  },
+  "homepage": "https://github.com/d2-projects/d2.pub#readme",
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
