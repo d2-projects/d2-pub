@@ -4,23 +4,7 @@ pageClass: page--custom-pre
 
 # D2Admin
 
-D2Admin 是一个完全 **开源免费** 的企业中后台产品前端集成方案，使用最新的前端技术栈，已经做好大部分项目前期准备工作，并且带有大量示例代码，助力管理系统敏捷开发。
-
-<p style="margin: 0px;">
-  <a><img src="https://img.shields.io/github/release/d2-projects/d2-admin.svg"/></a>
-  <a href="https://www.travis-ci.org/d2-projects/d2-admin"><img src="https://www.travis-ci.org/d2-projects/d2-admin.svg?branch=master"/></a>
-  <a><img src="https://img.shields.io/github/last-commit/d2-projects/d2-admin.svg"/></a>
-  <a><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"/></a>
-</p>
-
-<p style="margin: 0px;">
-	<a><img src="https://img.shields.io/github/issues/d2-projects/d2-admin.svg"/></a>
-	<a><img src="https://img.shields.io/github/issues-closed/d2-projects/d2-admin.svg"/></a>
-	<a><img src="https://img.shields.io/github/issues-pr/d2-projects/d2-admin.svg"/></a>
-	<a><img src="https://img.shields.io/github/issues-pr-closed/d2-projects/d2-admin.svg"/></a>
-	<a><img src="https://img.shields.io/github/forks/d2-projects/d2-admin.svg"/></a>
-	<a><img src="https://img.shields.io/github/stars/d2-projects/d2-admin.svg"/></a>
-</p>
+[D2Admin](https://github.com/d2-projects/d2-admin) 是一个完全 **开源免费** 的企业中后台产品前端集成方案，使用最新的前端技术栈，小于 60kb 的本地首屏 js 加载，已经做好大部分项目前期准备工作，并且带有大量示例代码，助力管理系统敏捷开发。
 
 **完整版**
 
@@ -39,6 +23,7 @@ D2Admin 是一个完全 **开源免费** 的企业中后台产品前端集成方
 * 使用 vue-cli3 构建
 * 首屏加载等待动画
 * 五款主题
+* 内置 UEditor 富文本编辑器
 * 详细的文档
 * 登录和注销
 * 分离的路由和菜单设置
@@ -84,6 +69,13 @@ D2Admin 是一个完全 **开源免费** 的企业中后台产品前端集成方
 * 日志记录和错误捕捉 `1.3.0 +`
 * 全局菜单搜索 `1.3.0 +`
 * 自定义登录重定向 `1.3.0 +`
+* 切换全局基础组件尺寸 `1.4.0 +`
+* 页面载入进度条 `1.4.1 +`
+* 自适应的顶部菜单栏 `1.4.7 +`
+* 数据导出 xslx 时支持合并单元格 `1.5.4 +`
+* 多标签页支持拖拽排序 `1.8.0 +`
+* 优化生产环境构建，首页只加载小于 60kb 的本地 js 代码 `1.8.0 +`
+* 内置了构建文件体积检查工具 `1.8.0 +`
 
 ## 项目结构
 

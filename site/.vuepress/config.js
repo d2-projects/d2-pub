@@ -2,12 +2,12 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'D2 Projects',
+      title: 'D2 Open Source',
       description: 'https://d2.pub'
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'D2 Projects',
+      title: 'D2 Open Source',
       description: 'https://d2.pub'
     }
   },
