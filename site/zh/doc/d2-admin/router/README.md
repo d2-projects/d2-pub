@@ -14,8 +14,8 @@
 
 开启缓存的页面可以在切换后保留页面数据。效果预览：
 
-* [开启缓存](https://fairyever.com/d2-admin/preview/#/demo/playground/page-cache/on)
-* [带参路由缓存1](https://fairyever.com/d2-admin/preview/#/demo/playground/page-cache/params/1) | [带参路由缓存2](https://fairyever.com/d2-admin/preview/#/demo/playground/page-cache/params/2)
+* [开启缓存](https://d2.pub/d2-admin/preview/#/demo/playground/page-cache/on)
+* [带参路由缓存1](https://d2.pub/d2-admin/preview/#/demo/playground/page-cache/params/1) | [带参路由缓存2](https://d2.pub/d2-admin/preview/#/demo/playground/page-cache/params/2)
 
 路由缓存默认为关闭状态，如果想启用某个页面的缓存，请在该路由配置的 meta 中加入：
 

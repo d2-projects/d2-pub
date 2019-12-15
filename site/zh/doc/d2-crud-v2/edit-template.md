@@ -16,7 +16,7 @@
 
 ## component.name
 
-* 说明: 表单渲染的组件名，组件请参考 [组件](http://element-cn.eleme.io/#/zh-CN/component)，自定义组件写法请参考[自定义组件示例](https://fairyever.com/d2-admin/preview/#/demo/d2-crud/demo25)
+* 说明: 表单渲染的组件名，组件请参考 [组件](http://element-cn.eleme.io/#/zh-CN/component)，自定义组件写法请参考[自定义组件示例](https://d2.pub/d2-admin/preview/#/demo/d2-crud/demo25)
 * 类型: String
 * 可选值: el-input / el-input-number / el-radio / el-checkbox / el-select / el-cascader / el-switch / el-slider / el-time-select / el-time-picker / el-date-picker / el-rate / el-color-picker / 自定义组件
 * 默认值: 无

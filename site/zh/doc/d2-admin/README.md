@@ -10,13 +10,13 @@ pageClass: page--custom-pre
 
 [Github 仓库](https://github.com/d2-projects/d2-admin) | 
 [码云仓库](https://gitee.com/fairyever/d2-admin) | 
-[预览地址](https://fairyever.com/d2-admin/preview/)
+[预览地址](https://d2.pub/d2-admin/preview/)
 
 **简化版模板**
 
 [Github 仓库](https://github.com/d2-projects/d2-admin-start-kit) | 
 [码云仓库](https://gitee.com/fairyever/d2-admin-start-kit) | 
-[预览地址](https://fairyever.com/d2-admin-start-kit/preview/)
+[预览地址](https://d2.pub/d2-admin-start-kit/preview)
 
 ## 功能
 
