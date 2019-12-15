@@ -25,9 +25,9 @@ module.exports = {
           {
             text: 'Document',
             items: [
-              { text: 'd2-admin', link: '/zh/document/d2-admin/' },
-              { text: 'd2-crud v2.x', link: '/zh/document/d2-crud-v2/' },
-              { text: 'd2-crud v1.x', link: '/zh/document/d2-crud-v1/' }
+              { text: 'd2-admin', link: '/zh/doc/d2-admin/' },
+              { text: 'd2-crud v2.x', link: '/zh/doc/d2-crud-v2/' },
+              { text: 'd2-crud v1.x', link: '/zh/doc/d2-crud-v1/' }
             ]
           }
         ]
@@ -39,14 +39,14 @@ module.exports = {
           {
             text: '项目文档',
             items: [
-              { text: 'd2-admin', link: '/zh/document/d2-admin/' },
-              { text: 'd2-crud v2.x', link: '/zh/document/d2-crud-v2/' },
-              { text: 'd2-crud v1.x', link: '/zh/document/d2-crud-v1/' }
+              { text: 'd2-admin', link: '/zh/doc/d2-admin/' },
+              { text: 'd2-crud v2.x', link: '/zh/doc/d2-crud-v2/' },
+              { text: 'd2-crud v1.x', link: '/zh/doc/d2-crud-v1/' }
             ]
           }
         ],
         sidebar: {
-          '/zh/document/d2-admin/': [
+          '/zh/doc/d2-admin/': [
             {
               title: '开始使用',
               children: [ '', 'learn/start', 'learn/knowledge' ]
@@ -75,7 +75,7 @@ module.exports = {
             { title: '常见问题', path: 'question/' },
             { title: '其它', path: 'other/' }
           ],
-          '/zh/document/d2-crud-v2/': [
+          '/zh/doc/d2-crud-v2/': [
             '',
             'guide',
             'example',
@@ -87,7 +87,7 @@ module.exports = {
             'slots',
             'migration'
           ],
-          '/zh/document/d2-crud-v1/': [
+          '/zh/doc/d2-crud-v1/': [
             '',
             'guide',
             'example',
