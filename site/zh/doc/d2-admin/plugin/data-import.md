@@ -8,7 +8,7 @@
 npm i @d2-projects/vue-table-import --save
 ```
 
-## 导入
+## 安装插件
 
 ``` js
 import Vue from 'vue'
@@ -18,7 +18,7 @@ Vue.use(pluginImport)
 
 之后就可以在组件中使用 `this.$import` 来调用导出功能
 
-## 导入 csv
+## 安装插件 csv
 
 导入csv文件，并且返回一个 `Promise` 对象
 
@@ -38,7 +38,7 @@ handleUpload (file) {
 }
 ```
 
-## 导入 xlsx
+## 安装插件 xlsx
 
 导入xlsx文件，并且返回一个 `Promise` 对象
 

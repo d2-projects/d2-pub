@@ -12,7 +12,7 @@
 npm i @d2-admin/filters-dayjs --save
 ```
 
-## 导入
+## 安装插件
 
 ``` js
 import Vue from 'vue'

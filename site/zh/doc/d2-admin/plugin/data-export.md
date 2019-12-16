@@ -8,7 +8,7 @@
 npm i @d2-projects/vue-table-export --save
 ```
 
-## 导入
+## 安装插件
 
 ``` js
 import Vue from 'vue'
