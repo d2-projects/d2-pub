@@ -16,7 +16,7 @@ import pluginImport from '@d2-projects/vue-table-import'
 Vue.use(pluginImport)
 ```
 
-之后就可以在组件中使用 `this.$import` 来调用导出功能
+之后就可以在组件中使用 `this.$import` 来调用导入功能
 
 ## 安装插件 csv
 
