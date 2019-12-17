@@ -12,7 +12,7 @@ module.exports = {
     }
   },
   head: [
-    ['link', { rel: 'icon', href: `/logo@2x.png` }],
+    ['link', { rel: 'icon', href: `/logo.png` }],
     ['script', {}, 'var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "https://hm.baidu.com/hm.js?a4d73e21496377fe9f2ddb6b8c97440e";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();']
   ],
   themeConfig: {
