@@ -43,7 +43,7 @@ npm run start
 npm run dev
 ```
 
-其中任何一个，编译完成后没有自动打开浏览器，请尝试在本机安装 [vue-cli3](https://cli.vuejs.org/zh/) 后重新启动项目。
+其中任何一个，编译完成后没有自动打开浏览器，请尝试在本机安装 [vue-cli3](https://cli.vuejs.org../) 后重新启动项目。
 
 ## 热更新失效
 

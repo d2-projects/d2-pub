@@ -4,17 +4,17 @@ D2Admin 的顶栏菜单和侧边栏菜单相互独立互不影响。
 
 ## 数据源
 
-顶栏数据使用 `$store.state.d2admin.menu.header` 作为数据源。[API](/zh/sys-vuex/menu.md#state-header)
+顶栏数据使用 `$store.state.d2admin.menu.header` 作为数据源。[API](../vuex/menu.md#state-header)
 
-侧栏数据使用 `$store.state.d2admin.menu.aside` 作为数据源。[API](/zh/sys-vuex/menu.md#state-aside)
+侧栏数据使用 `$store.state.d2admin.menu.aside` 作为数据源。[API](../vuex/menu.md#state-aside)
 
 ## 设置菜单
 
-顶栏使用 `$store.commit('d2admin/menu/headerSet', menu)` 更新数据源。[API](/zh/sys-vuex/menu.md#mutations-headerset)
+顶栏使用 `$store.commit('d2admin/menu/headerSet', menu)` 更新数据源。[API](../vuex/menu.md#mutations-headerset)
 
-侧栏使用 `$store.commit('d2admin/menu/asideSet', menu)` 更新数据源。[API](/zh/sys-vuex/menu.md#mutations-asideset)
+侧栏使用 `$store.commit('d2admin/menu/asideSet', menu)` 更新数据源。[API](../vuex/menu.md#mutations-asideset)
 
-menu 的数据格式见 [menu 数据格式](/zh/sys-vuex/menu.md#mutations-headerset)
+menu 的数据格式见 [menu 数据格式](../vuex/menu.md#mutations-headerset)
 
 ## 菜单联动
 

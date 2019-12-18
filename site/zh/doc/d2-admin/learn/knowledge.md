@@ -23,15 +23,15 @@
 | 名称 | 介绍 |
 | --- | --- |
 | [vue.js](https://cn.vuejs.org/v2/guide/) | 框架基础 |
-| [vuex](https://vuex.vuejs.org/zh/guide/) | 全局状态管理 |
-| [vue-router](https://router.vuejs.org/zh/guide/) | 路由控制 |
+| [vuex](https://vuex.vuejs.org../guide/) | 全局状态管理 |
+| [vue-router](https://router.vuejs.org../guide/) | 路由控制 |
 | [sass](https://www.sass.hk/guide/) | CSS 预处理语言 |
 
 脚手架：
 
 | 名称 | 介绍 |
 | --- | --- |
-| [vue-cli3](https://cli.vuejs.org/zh/) | 项目脚手架 |
+| [vue-cli3](https://cli.vuejs.org../) | 项目脚手架 |
 | [webpack-chain](https://github.com/mozilla-neutrino/webpack-chain) | vue-cli3 中 webpack 的配置语法 |
 
 插件：

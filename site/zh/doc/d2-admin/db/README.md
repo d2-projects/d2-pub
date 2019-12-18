@@ -16,7 +16,7 @@ D2Admin 数据持久化依赖浏览器的 LocalStorage，使用 [lowdb](https://
 
 ![](https://qiniucdn.fairyever.com/20190416162535.png)
 
-如果是希望读取数据，依旧遵循上图的选择条件。具体的方法介绍见本页面其它章节，具体 API 详见 [vuex db 模块](/zh/sys-vuex/db.md)
+如果是希望读取数据，依旧遵循上图的选择条件。具体的方法介绍见本页面其它章节，具体 API 详见 [vuex db 模块](../vuex/db.md)
 
 ## 概念
 
@@ -151,8 +151,8 @@ const db = await this.$store.dispatch('d2admin/db/databasePage', {
 
 root 级别的方法有两个，分别为：
 
-* [d2admin/db/set](/zh/sys-vuex/db.md#actions-set)
-* [d2admin/db/get](/zh/sys-vuex/db.md#actions-get)
+* [d2admin/db/set](../vuex/db.md#actions-set)
+* [d2admin/db/get](../vuex/db.md#actions-get)
 
 调用方式为：
 

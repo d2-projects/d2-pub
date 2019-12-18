@@ -2,7 +2,7 @@
 
 ## 依赖
 
-本项目国际化依赖插件 [vue-i18n](http://kazupon.github.io/vue-i18n/zh/)
+本项目国际化依赖插件 [vue-i18n](http://kazupon.github.io/vue-i18n../)
 
 ## 安装
 
@@ -160,7 +160,7 @@ export default {
         message = [
           `当前语言：${this.$t('_name')} [ ${this.$i18n.locale} ]`,
           `仅提供切换功能，没有配置具体的语言数据 `,
-          `文档参考：<a class="el-link el-link--primary is-underline" target="_blank" href="https://d2.pub/zh/doc/d2-admin/locales">《国际化 | D2Admin》</a>`
+          `文档参考：<a class="el-link el-link--primary is-underline" target="_blank" href="https://d2.pub../doc/d2-admin/locales">《国际化 | D2Admin》</a>`
         ].join('<br/>')
       }
       this.$notify({
@@ -227,7 +227,7 @@ export default {
 
 ## 使用
 
-完整的使用方式见 [Vue I18n 文档](http://kazupon.github.io/vue-i18n/zh/guide/formatting.html)。D2Admin 中使用的是其最基础的使用方式。
+完整的使用方式见 [Vue I18n 文档](http://kazupon.github.io/vue-i18n../guide/formatting.html)。D2Admin 中使用的是其最基础的使用方式。
 
 在项目中一切配置都已经为您准备好，您只需修改 [src/locales](https://github.com/d2-projects/d2-admin/tree/master/src/locales) 中的配置内容和使用即可。
 

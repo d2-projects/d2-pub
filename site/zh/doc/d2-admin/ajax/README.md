@@ -192,7 +192,7 @@ export default {
 
 ## 模拟数据
 
-详见 [插件 | 模拟数据](/zh/sys-plugins/mock.md)
+详见 [插件 | 模拟数据](../plugins/mock.md)
 
 ## 跨域问题
 
@@ -213,4 +213,4 @@ devServer: {
 }
 ```
 
-上述配置的结果是在请求 `/api/login` 时转发到 `http://47.100.186.132/your-path/api/login`。更多文档见 [Vue CLI 3 | devServer.proxy](https://cli.vuejs.org/zh/config/#devserver-proxy)
+上述配置的结果是在请求 `/api/login` 时转发到 `http://47.100.186.132/your-path/api/login`。更多文档见 [Vue CLI 3 | devServer.proxy](https://cli.vuejs.org../config/#devserver-proxy)

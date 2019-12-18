@@ -197,7 +197,7 @@ this.$store.commit('d2admin/menu/headerSet', menu)
 }
 ```
 
-iconSvg 字段可选值同 [icon-svg](/zh/sys-components/icon-svg.md) 的 name 属性。
+iconSvg 字段可选值同 [icon-svg](../component/icon-svg.md) 的 name 属性。
 
 ### 取消默认图标
 

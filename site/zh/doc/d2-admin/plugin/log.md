@@ -53,4 +53,4 @@ this.$log.push({
 })
 ```
 
-完整的参数设置见：[vuex log | actions.push](/zh/sys-vuex/log.html#actions-push)
+完整的参数设置见：[vuex log | actions.push](../vuex/log.html#actions-push)

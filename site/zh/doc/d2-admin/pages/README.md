@@ -19,11 +19,11 @@ $store.commit('d2admin/page/poolSet', pool)
 
 ## 触发
 
-新建页面的触发在 `d2-admin/src/router/index.js` 中的 `router.afterEach` 钩子中。涉及的方法参见 [API](/zh/sys-vuex/page.md)
+新建页面的触发在 `d2-admin/src/router/index.js` 中的 `router.afterEach` 钩子中。涉及的方法参见 [API](../vuex/page.md)
 
 ## 标签页控制
 
-标签页组件在 `d2-admin/src/layout/header-aside/components/tabs/index.vue`，该组件实现多页面的各种关闭控制。涉及的方法参见 [API](/zh/sys-vuex/page.md)
+标签页组件在 `d2-admin/src/layout/header-aside/components/tabs/index.vue`，该组件实现多页面的各种关闭控制。涉及的方法参见 [API](../vuex/page.md)
 
 ## 页面缓存
 
