@@ -129,9 +129,9 @@ npm run serve
 
 ## 新建页面
 
-`src/pages` 目录是页面存放目录，在此目录下新建目录，例如 **page-demo**：
+`src/views` 目录是页面存放目录，在此目录下新建目录，例如 **page-demo**：
 
-![](https://qiniucdn.fairyever.com/20180729095509.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://tuchuang.keysking.com/20191231215232.png)
 
 然后在文件夹内新建 **index.vue** 文件：
 
@@ -147,19 +147,19 @@ npm run serve
 
 上面的代码生成了一个带有 header 和 footer 的页面，页面内容只有一句话，如果您好奇为什么这么写，可以参考 [页面容器](../sys-components/container.md)
 
-![](https://qiniucdn.fairyever.com/20180729095919.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://tuchuang.keysking.com/20191231215700.png)
 
 ## 设置路由
 
 `src/router/routes.js` 是路由配置文件。
 
-在 `frameIn` 变量最后添加：
+在 `frameIn` 变量的 `children` 数组最后添加：
 
 ``` js
 {
   path: '/page-demo',
   name: 'page-demo',
-  component: () => import('@/pages/page-demo'),
+  component: _import('page-demo'),
   meta: {
     auth: true,
     title: '新建示例'
@@ -195,9 +195,9 @@ const frameIn = [
       {
         path: '/page-demo',
         name: 'page-demo',
-        component: () => import('@/pages/page-demo'),
+        component: _import('page-demo'),
         meta: {
-          auth: true, 
+          auth: true,
           title: '新建示例'
         }
       }
