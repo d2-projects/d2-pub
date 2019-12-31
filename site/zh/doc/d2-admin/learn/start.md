@@ -169,29 +169,43 @@ npm run serve
 
 最后 `frameIn` 变量应该是这样：
 
-``` js {23-31}
+``` js {37-45}
 const frameIn = [
   {
     path: '/',
     redirect: { name: 'index' },
     component: layoutHeaderAside,
     children: [
+      // 首页
       {
         path: 'index',
         name: 'index',
-        meta,
-        component: () => import('@/pages/index')
-      },
-      // ...
-      {
-        path: '/page3',
-        name: 'page3',
-        component: () => import('@/pages/page3'),
         meta: {
-          auth: true, 
-          title: '页面 3'
-        }
+          auth: true
+        },
+        component: _import('system/index')
       },
+      // ......
+      {
+        path: 'page3',
+        name: 'page3',
+        meta: {
+          title: '页面 3',
+          auth: true
+        },
+        component: _import('demo/page3')
+      },
+      // 系统 前端日志
+      {
+        path: 'log',
+        name: 'log',
+        meta: {
+          title: '前端日志',
+          auth: true
+        },
+        component: _import('system/log')
+      },
+      // ......
       {
         path: '/page-demo',
         name: 'page-demo',
