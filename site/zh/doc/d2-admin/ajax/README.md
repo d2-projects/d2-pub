@@ -192,7 +192,7 @@ export default {
 
 ## 模拟数据
 
-详见 [插件 | 模拟数据](../plugins/mock.md)
+详见 [插件 | 模拟数据](../plugin/mock.md)
 
 ## 跨域问题
 
