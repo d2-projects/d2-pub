@@ -1,4 +1,7 @@
 module.exports = {
+  markdown: {
+    lineNumbers: true
+  },
   locales: {
     '/': {
       lang: 'en-US',
