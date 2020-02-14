@@ -48,12 +48,12 @@
 
 | D2Admin | nx-admin |
 | --- | --- |
-| ![](https://qiniucdn.fairyever.com/20180727103812.png) | ![](https://qiniucdn.fairyever.com/20180727103329.png) |
-| ![](https://qiniucdn.fairyever.com/20180727103923.png) | ![](https://qiniucdn.fairyever.com/20180727103931.png) |
-| ![](https://qiniucdn.fairyever.com/20180727104208.png) | ![](https://qiniucdn.fairyever.com/20180727104213.png) |
-| ![](https://qiniucdn.fairyever.com/20180727104225.png) | ![](https://qiniucdn.fairyever.com/20180727104232.png) |
-| ![](https://qiniucdn.fairyever.com/20180727104240.png) | ![](https://qiniucdn.fairyever.com/20180727104245.png) |
-| ![](https://qiniucdn.fairyever.com/20180729104137.png) | ![](https://qiniucdn.fairyever.com/20180729104152.png) |
+| ![](https://cdn.d2.pub/files/image-hosting/20180727103812.png) | ![](https://cdn.d2.pub/files/image-hosting/20180727103329.png) |
+| ![](https://cdn.d2.pub/files/image-hosting/20180727103923.png) | ![](https://cdn.d2.pub/files/image-hosting/20180727103931.png) |
+| ![](https://cdn.d2.pub/files/image-hosting/20180727104208.png) | ![](https://cdn.d2.pub/files/image-hosting/20180727104213.png) |
+| ![](https://cdn.d2.pub/files/image-hosting/20180727104225.png) | ![](https://cdn.d2.pub/files/image-hosting/20180727104232.png) |
+| ![](https://cdn.d2.pub/files/image-hosting/20180727104240.png) | ![](https://cdn.d2.pub/files/image-hosting/20180727104245.png) |
+| ![](https://cdn.d2.pub/files/image-hosting/20180729104137.png) | ![](https://cdn.d2.pub/files/image-hosting/20180729104152.png) |
 
 ### avue
 
@@ -65,10 +65,10 @@
 
 | D2Admin | avue |
 | --- | --- |
-| ![](https://qiniucdn.fairyever.com/20180729105741.png) | ![](https://qiniucdn.fairyever.com/20180729105748.png) |
-| ![](https://qiniucdn.fairyever.com/20180729110207.png) | ![](https://qiniucdn.fairyever.com/20180729110231.png) |
-| ![](https://qiniucdn.fairyever.com/20180729105822.png) | ![](https://qiniucdn.fairyever.com/20180729105839.png) |
-| ![](https://qiniucdn.fairyever.com/20180729105855.png) | ![](https://qiniucdn.fairyever.com/20180729105908.png) |
+| ![](https://cdn.d2.pub/files/image-hosting/20180729105741.png) | ![](https://cdn.d2.pub/files/image-hosting/20180729105748.png) |
+| ![](https://cdn.d2.pub/files/image-hosting/20180729110207.png) | ![](https://cdn.d2.pub/files/image-hosting/20180729110231.png) |
+| ![](https://cdn.d2.pub/files/image-hosting/20180729105822.png) | ![](https://cdn.d2.pub/files/image-hosting/20180729105839.png) |
+| ![](https://cdn.d2.pub/files/image-hosting/20180729105855.png) | ![](https://cdn.d2.pub/files/image-hosting/20180729105908.png) |
 
 ## 更新日志
 

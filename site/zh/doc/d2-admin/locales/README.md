@@ -296,21 +296,21 @@ export default {
 
 如果您有条件，我非常推荐你尝试使用 [BabelEdit](https://www.codeandweb.com/babeledit-vue) 来提高您的国际化翻译效率。
 
-![](https://qiniucdn.fairyever.com/mweb/15669995917172.jpg)
+![](https://cdn.d2.pub/files/image-hosting/mweb/15669995917172.jpg)
 
 软件界面上展示的适配的项目种类，暂时我们只需要 vue-i18n 的支持。
 
-![](https://qiniucdn.fairyever.com/mweb/15669995162240.jpg)
+![](https://cdn.d2.pub/files/image-hosting/mweb/15669995162240.jpg)
 
 使用方式：
 
 点击界面左上角的 Open Project，选择 D2Admin 中的 d2-admin.babel 文件导入项目。
 
-![](https://qiniucdn.fairyever.com/mweb/15669997254598.jpg)
+![](https://cdn.d2.pub/files/image-hosting/mweb/15669997254598.jpg)
 
 可以看到目前项目中自带的多国语言配置：
 
-![](https://qiniucdn.fairyever.com/mweb/15669998884340.jpg)
+![](https://cdn.d2.pub/files/image-hosting/mweb/15669998884340.jpg)
 
 在右侧的输入框可以随意编辑，保存后软件会自动更新 D2Admin 项目中的语言配置文件。
 
@@ -320,32 +320,32 @@ export default {
 
 支持设置默认语言，以及自动生成其它国家语言的设置文件。
 
-![](https://qiniucdn.fairyever.com/mweb/15670000058515.jpg)
+![](https://cdn.d2.pub/files/image-hosting/mweb/15670000058515.jpg)
 
 自动翻译
 
 购买激活码之后附带赠送 250,000 字的谷歌翻译额度（可以后续购买），在这之内你可以只设置一种语言，软件自动根据谷歌翻译结果帮你自动填充其它语言的文字配置。
 
-![](https://qiniucdn.fairyever.com/mweb/15670000464682.jpg)
+![](https://cdn.d2.pub/files/image-hosting/mweb/15670000464682.jpg)
 
 多种输出格式
 
 自定义输出的缩进以及输出类型。
 
-![](https://qiniucdn.fairyever.com/mweb/15670001708840.jpg)
+![](https://cdn.d2.pub/files/image-hosting/mweb/15670001708840.jpg)
 
 
 与 vue 项目适配
 
 可以同时预览某句话在项目中被使用的位置。
 
-![](https://qiniucdn.fairyever.com/mweb/15670000968055.jpg)
+![](https://cdn.d2.pub/files/image-hosting/mweb/15670000968055.jpg)
 
 自动生成调用代码
 
 可以快速生成调用代码，并支持自定义代码格式。
 
-![](https://qiniucdn.fairyever.com/mweb/15670002094044.jpg)
+![](https://cdn.d2.pub/files/image-hosting/mweb/15670002094044.jpg)
 
 此部分**非广告内容**，属于我个人购买正版使用一段时间之后的心得推荐。此软件 ￥158 / 用户，如有需要请直接官网购买。
 

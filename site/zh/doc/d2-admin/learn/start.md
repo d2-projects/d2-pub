@@ -6,7 +6,7 @@
 本示例中的代码和截图可能和您现在手中的版本不同，但操作思路一样。
 :::
 
-![](https://qiniucdn.fairyever.com/20180729102354.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://cdn.d2.pub/files/image-hosting/20180729102354.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ## 安装环境
 
@@ -18,7 +18,7 @@
 
 在 [node.js 官网](https://nodejs.org/en/download/) 下载合适您系统的 node.js。
 
-![](https://qiniucdn.fairyever.com/20180729091640.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://cdn.d2.pub/files/image-hosting/20180729091640.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 安装完毕后检查版本（最好使用 node 8 版本）。
 
@@ -89,7 +89,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 下载完成后您会得到这些资源（以 1.1.5 版本为例）：
 
-![](https://qiniucdn.fairyever.com/20180729091149.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://cdn.d2.pub/files/image-hosting/20180729091149.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ## 安装依赖
 
@@ -125,13 +125,13 @@ npm run serve
 
 成功运行后会显示登录界面：
 
-![](https://qiniucdn.fairyever.com/20180729094841.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://cdn.d2.pub/files/image-hosting/20180729094841.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ## 新建页面
 
 `src/pages` 目录是页面存放目录，在此目录下新建目录，例如 **page-demo**：
 
-![](https://qiniucdn.fairyever.com/20180729095509.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://cdn.d2.pub/files/image-hosting/20180729095509.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 然后在文件夹内新建 **index.vue** 文件：
 
@@ -147,7 +147,7 @@ npm run serve
 
 上面的代码生成了一个带有 header 和 footer 的页面，页面内容只有一句话，如果您好奇为什么这么写，可以参考 [页面容器](../sys-components/container.md)
 
-![](https://qiniucdn.fairyever.com/20180729095919.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://cdn.d2.pub/files/image-hosting/20180729095919.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ## 设置路由
 
@@ -254,8 +254,8 @@ export default [
 
 经过上述步骤您得到了一个具有顶栏和底栏的页面，这个页面的入口在顶栏菜单和侧边栏菜单都会显示，并且打开此页面时浏览器 title 也会做出相应更新。
 
-![](https://qiniucdn.fairyever.com/20180729101736.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://cdn.d2.pub/files/image-hosting/20180729101736.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
-![](https://qiniucdn.fairyever.com/20180729101708.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://cdn.d2.pub/files/image-hosting/20180729101708.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 上述教程只是介绍了 D2Admin 的冰山一角，更多的配置项和组件文档请查阅本文档其它板块。
