@@ -24,6 +24,7 @@
           </div>
         </div>
       </router-link>
+      <span v-else></span>
       <router-link v-if="next" :to="next.path">
         <div class="page-nav-button next" flex="main:justify cross:center">
           <div>
@@ -47,6 +48,7 @@
           </svg>
         </div>
       </router-link>
+      <span v-else></span>
     </div>
   </div>
 </template>
@@ -131,6 +133,9 @@ function flatten (items, res) {
   @extend $wrapper
   padding-top 1rem
   padding-bottom 0
+  a {
+    max-width 50%
+  }
   .page-nav-button
     padding 1.3rem 1.2rem
     border-radius 2px
