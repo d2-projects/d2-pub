@@ -156,9 +156,13 @@ function flatten (items, res) {
       text-align right
     .page-nav-button--type
       font-size 0.6rem
+      line-height 0.6rem
       font-weight 400
       color #9DAAB6
+      margin-bottom 0.5rem
     .page-nav-button--title
+      font-size 1rem
+      line-height 1rem
       font-weight 600
     .page-nav-button--arrow
       height 1.5rem
