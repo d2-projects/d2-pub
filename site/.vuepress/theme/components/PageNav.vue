@@ -139,7 +139,7 @@ function flatten (items, res) {
   .page-nav-button
     padding 1.3rem 1.2rem
     border-radius 2px
-    border: 1px solid #E6ECF1
+    border: 1px solid $borderColor
     box-shadow 0 3px 8px 0 rgba(116, 129, 141, 0.1)
     cursor pointer
     transition border-color .3s
@@ -165,6 +165,8 @@ function flatten (items, res) {
       line-height 1rem
       font-weight 600
     .page-nav-button--arrow
+      color #9DAAB6
       height 1.5rem
       width 1.5rem
 </style>
+=
