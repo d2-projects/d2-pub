@@ -19,5 +19,9 @@
   "homepage": "https://github.com/d2-projects/d2.pub#readme",
   "devDependencies": {
     "vuepress": "^1.2.0"
+  },
+  "dependencies": {
+    "flex.css": "^1.1.7",
+    "lodash": "^4.17.15"
   }
 }

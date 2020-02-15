@@ -1,21 +1,59 @@
 <template>
   <div class="page-nav" v-if="prev || next">
-    <p class="inner">
-      <span v-if="prev" class="prev">
-        ←
-        <router-link v-if="prev" class="prev" :to="prev.path">{{ prev.title || prev.path }}</router-link>
-      </span>
-      <span v-if="next" class="next">
-        <router-link v-if="next" :to="next.path">{{ next.title || next.path }}</router-link>
-        →
-      </span>
-    </p>
+    <div flex="main:justify cross:center box:mean">
+      <router-link v-if="prev" :to="prev.path">
+        <div class="page-nav-button prev" flex="main:justify cross:center">
+          <svg
+            class="page-nav-button--arrow"
+            preserveaspectratio="xMidYMid meet"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            viewbox="0 0 24 24"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke="currentColor">
+            <g>
+              <line x1="19" y1="12" x2="5" y2="12"></line>
+              <polyline points="12 19 5 12 12 5"></polyline>
+            </g>
+          </svg>
+          <div>
+            <div class="page-nav-button--type">Previous</div>
+            <div class="page-nav-button--title">{{ prev.title || prev.path }}</div>
+          </div>
+        </div>
+      </router-link>
+      <router-link v-if="next" :to="next.path">
+        <div class="page-nav-button next" flex="main:justify cross:center">
+          <div>
+            <div class="page-nav-button--type">Next</div>
+            <div class="page-nav-button--title">{{ next.title || next.path }}</div>
+          </div>
+          <svg
+            class="page-nav-button--arrow"
+            preserveaspectratio="xMidYMid meet"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            viewbox="0 0 24 24"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke="currentColor">
+            <g>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </g>
+          </svg>
+        </div>
+      </router-link>
+    </div>
   </div>
 </template>
+
 <script>
 import { resolvePage } from '@vuepress/theme-default/util/index.js'
-import isString from 'lodash/isString'
-import isNil from 'lodash/isNil'
+import { isString, isNil } from 'lodash'
 
 export default {
   name: 'PageNav',
@@ -24,7 +62,6 @@ export default {
     prev () {
       return resolvePageLink(LINK_TYPES.PREV, this)
     },
-
     next () {
       return resolvePageLink(LINK_TYPES.NEXT, this)
     }
@@ -94,12 +131,31 @@ function flatten (items, res) {
   @extend $wrapper
   padding-top 1rem
   padding-bottom 0
-  .inner
-    min-height 2rem
-    margin-top 0
-    border-top 1px solid $borderColor
-    padding-top 1rem
-    overflow auto // clear float
-  .next
-    float right
+  .page-nav-button
+    padding 1.3rem 1.2rem
+    border-radius 2px
+    border: 1px solid #E6ECF1
+    box-shadow 0 3px 8px 0 rgba(116, 129, 141, 0.1)
+    cursor pointer
+    transition border-color .3s
+    color: $textColor
+    &:hover
+      border-color $accentColor
+      .page-nav-button--arrow
+        color: $accentColor
+      .page-nav-button--title
+        color: $accentColor
+    &:first-child
+      margin-right 10px
+    &.prev
+      text-align right
+    .page-nav-button--type
+      font-size 0.6rem
+      font-weight 400
+      color #9DAAB6
+    .page-nav-button--title
+      font-weight 600
+    .page-nav-button--arrow
+      height 1.5rem
+      width 1.5rem
 </style>

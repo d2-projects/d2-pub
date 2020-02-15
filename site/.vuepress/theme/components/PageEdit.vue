@@ -11,7 +11,7 @@
   </footer>
 </template>
 <script>
-import isNil from 'lodash/isNil'
+import { isNil } from 'lodash'
 import { endingSlashRE, outboundRE } from '@vuepress/theme-default/util/index.js'
 
 export default {
