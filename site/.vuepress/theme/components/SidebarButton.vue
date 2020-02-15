@@ -7,19 +7,22 @@
 </template>
 
 <style lang="stylus">
+$sidebar-button-height = 1.25rem
+$sidebar-button-width = 1.25rem
+$sidebar-button-padding = 0.6rem
 .sidebar-button
   cursor pointer
   display none
-  width 1.25rem
-  height 1.25rem
+  width $sidebar-button-width
+  height $sidebar-button-height
   position absolute
-  padding 0.6rem
-  top 0.6rem
+  padding $sidebar-button-padding
+  top ($navbarHeight - ($sidebar-button-height + $sidebar-button-padding * 2)) * 0.5
   left 1rem
   .icon
     display block
-    width 1.25rem
-    height 1.25rem
+    width $sidebar-button-width
+    height $sidebar-button-height
 
 @media (max-width: $MQMobile)
   .sidebar-button

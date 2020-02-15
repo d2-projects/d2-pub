@@ -1,19 +1,8 @@
 <template>
   <header class="navbar">
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
-    <router-link :to="$localePath" class="home-link">
-      <img
-        class="logo"
-        v-if="$site.themeConfig.logo"
-        :src="$withBase($site.themeConfig.logo)"
-        :alt="$siteTitle">
-      <span
-        ref="siteName"
-        class="site-name"
-        v-if="$siteTitle"
-        :class="{ 'can-hide': $site.themeConfig.logo }">
-      {{ $siteTitle }}
-      </span>
+    <router-link :to="$localePath">
+      <img class="logo" :src="$site.themeConfig.logo" :alt="$siteTitle">
     </router-link>
     <div class="links" :style="linksWrapMaxWidth ? { 'max-width': linksWrapMaxWidth + 'px' } : {}">
       <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia"/>
@@ -43,8 +32,7 @@ export default {
       if (document.documentElement.clientWidth < MOBILE_DESKTOP_BREAKPOINT) {
         this.linksWrapMaxWidth = null
       } else {
-        this.linksWrapMaxWidth = this.$el.offsetWidth - NAVBAR_VERTICAL_PADDING
-          - (this.$refs.siteName && this.$refs.siteName.offsetWidth || 0)
+        this.linksWrapMaxWidth = this.$el.offsetWidth - NAVBAR_VERTICAL_PADDING - (this.$refs.siteName && this.$refs.siteName.offsetWidth || 0)
       }
     }
     handleLinksWrapWidth()
@@ -73,22 +61,17 @@ $navbar-horizontal-padding = 1.5rem
 
 .navbar
   padding $navbar-vertical-padding $navbar-horizontal-padding
-  line-height $navbarHeight - 1.4rem
+  line-height $navbarHeight - $navbar-vertical-padding * 2
   box-shadow: $navbarShadow ;
   border-bottom: 1px solid $navbarBorderColor;
   background-color: $navbarBgColor;
   a, span, img
     display inline-block
   .logo
-    height $navbarHeight - 1.4rem
-    min-width $navbarHeight - 1.4rem
+    height $navbarHeight - $navbar-vertical-padding * 2
+    min-width $navbarHeight - $navbar-vertical-padding * 2
     margin-right 0.8rem
     vertical-align top
-  .site-name
-    font-size 1.3rem
-    font-weight 600
-    color $textColor
-    position relative
   .links
     padding-left 1.5rem
     box-sizing border-box
@@ -110,9 +93,4 @@ $navbar-horizontal-padding = 1.5rem
       display none
     .links
       padding-left 1.5rem
-    .site-name
-      width calc(100vw - 9.4rem)
-      overflow hidden
-      white-space nowrap
-      text-overflow ellipsis
 </style>
