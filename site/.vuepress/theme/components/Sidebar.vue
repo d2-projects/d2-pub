@@ -20,11 +20,11 @@ export default {
 
 <style lang="stylus">
 .sidebar
+  background-color $sidebarBgColor
   ul
     padding 0
     margin 0
     list-style-type none
-    background-color $sidebarBgColor
   a
     display inline-block
   .nav-links

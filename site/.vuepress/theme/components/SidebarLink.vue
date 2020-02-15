@@ -3,9 +3,7 @@ import { isActive, hashRE, groupHeaders } from '@vuepress/theme-default/util/ind
 
 export default {
   functional: true,
-
   props: ['item', 'sidebarDepth'],
-
   render (h,
     {
       parent: {
@@ -25,13 +23,8 @@ export default {
     const selfActive = isActive($route, item.path)
     // for sidebar: auto pages, a hash link should be active if one of its child
     // matches
-    const active = item.type === 'auto'
-      ? selfActive || item.children.some(c => isActive($route, item.basePath + '#' + c.slug))
-      : selfActive
-    const link = item.type === 'external'
-      ? renderExternal(h, item.path, item.title || item.path)
-      : renderLink(h, item.path, item.title || item.path, active)
-
+    const active = item.type === 'auto' ? selfActive || item.children.some(c => isActive($route, item.basePath + '#' + c.slug)) : selfActive
+    const link = item.type === 'external' ? renderExternal(h, item.path, item.title || item.path) : renderLink(h, item.path, item.title || item.path, active)
     const maxDepth = [
       $page.frontmatter.sidebarDepth,
       sidebarDepth,
@@ -39,10 +32,7 @@ export default {
       $themeConfig.sidebarDepth,
       1
     ].find(depth => depth !== undefined)
-
-    const displayAllHeaders = $themeLocaleConfig.displayAllHeaders
-      || $themeConfig.displayAllHeaders
-
+    const displayAllHeaders = $themeLocaleConfig.displayAllHeaders || $themeConfig.displayAllHeaders
     if (item.type === 'auto') {
       return [link, renderChildren(h, item.children, item.basePath, $route, maxDepth)]
     } else if ((active || displayAllHeaders) && item.headers && !hashRE.test(item.path)) {
@@ -103,7 +93,12 @@ a.sidebar-link
   font-weight 500
   display inline-block
   color $textColor
-  // border-left 0.25rem solid transparent
+  // ---
+  border 1px solid transparent
+  border-right none
+  border-top-left-radius 2px
+  border-bottom-left-radius 2px
+  // ---
   padding 0.35rem 1rem 0.35rem 1.25rem
   line-height 1.4
   width: 100%
@@ -113,14 +108,19 @@ a.sidebar-link
   &.active
     font-weight 600
     color $accentColor
-    // border-left-color $accentColor
-    // background-color $sidebarLinkActiveBgColor
+    // ---
+    background-color $sidebarLinkActiveBgColor
+    border-color $borderColor
+    // ---
   .sidebar-group &
-    padding-left 2rem
+    padding-left 1rem
   .sidebar-sub-headers &
     padding-top 0.35rem
     padding-bottom 0.35rem
-    // border-left none
+    // ---
+    border none
+    // ---
     &.active
       font-weight 500
+      background-color $sidebarLinkHoverBgColor
 </style>

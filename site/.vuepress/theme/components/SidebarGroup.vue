@@ -90,11 +90,16 @@ export default {
     & > .sidebar-group-items
       padding-left 1rem
       & > li > .sidebar-link
-        font-size: 0.95em;
+        font-size: 0.95em
         border-left none
   &.depth-2
     & > .sidebar-heading
       border-left none
+  // 错开层级
+  .sidebar-group-items
+    margin-left 1em
+    margin-top 0.5em
+    margin-bottom 0.5em
 
 .sidebar-heading
   color $textColor
@@ -102,16 +107,21 @@ export default {
   cursor pointer
   font-size 1.1em
   font-weight 500
-  // text-transform uppercase
   padding 0.35rem 1.5rem 0.35rem 1.25rem
   width 100%
   box-sizing border-box
   margin 0
-  border-left 0.25rem solid transparent
+  border 1px solid transparent
+  border-right none
+  border-top-left-radius 2px
+  border-bottom-left-radius 2px
   &:hover
-    background-color $sidebarLinkHoverBgColor
-  &.open, &:hover
     color inherit
+    background-color $sidebarLinkHoverBgColor
+  &.open
+    color $accentColor
+    background-color $sidebarLinkActiveBgColor
+    border-color $borderColor
   .arrow
     position relative
     top -0.12em
