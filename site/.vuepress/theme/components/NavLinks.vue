@@ -11,12 +11,10 @@
     >
       <DropdownLink
         v-if="item.type === 'links'"
-        :item="item"
-      />
+        :item="item"/>
       <NavLink
         v-else
-        :item="item"
-      />
+        :item="item"/>
     </div>
 
     <!-- repo link -->

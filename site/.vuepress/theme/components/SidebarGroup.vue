@@ -47,8 +47,7 @@
         :items="item.children"
         v-if="open || !collapsable"
         :sidebarDepth="item.sidebarDepth"
-        :depth="depth + 1"
-      />
+        :depth="depth + 1"/>
     </DropdownTransition>
   </section>
 </template>
