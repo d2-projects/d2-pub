@@ -20,6 +20,7 @@ export default {
 
 <style lang="stylus">
 .sidebar
+  user-select none
   background-color $sidebarBgColor !important
   ul
     padding 0
