@@ -17,7 +17,7 @@ module.exports = {
   ],
   themeConfig: {
     // logo
-    logo: 'https://cdn.d2.pub/files/image-hosting/20200215125540.png',
+    logo: 'https://cdn.d2.pub/files/image-hosting/20200216210754.png',
     // 仓库主页
     repo: 'https://github.com/d2-projects',
     // 自定义仓库链接文字
