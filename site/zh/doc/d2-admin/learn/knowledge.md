@@ -2,7 +2,7 @@
 
 使用 D2Admin 首先组要有以下前置知识：
 
-* 首先需要熟悉 web 开发基础三样：[HTML CSS JavaScript](http://www.w3school.com.cn/)
+* 首先需要熟悉 web 开发基础三样： [HTML CSS JavaScript](http://www.w3school.com.cn/)
 * 会使用 [vue.js](https://cn.vuejs.org/)
 
 如果您了解以下技术，在使用本项目进行您的开发时会更加得心应手：

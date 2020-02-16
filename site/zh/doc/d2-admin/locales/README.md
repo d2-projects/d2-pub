@@ -18,7 +18,7 @@ vue add i18n
 
 如果您不是想自己在项目中安装，可以略过这一节。
 
-下面的演示代码不一定在后面的某个时间更新，最新的代码以您阅读时[仓库](https://github.com/d2-projects/d2-admin)中代码为准，您可以点击下面的链接跳转到仓库查看。
+下面的演示代码不一定在后面的某个时间更新，最新的代码以您阅读时 [仓库](https://github.com/d2-projects/d2-admin) 中代码为准，您可以点击下面的链接跳转到仓库查看。
 
 * [.env](https://github.com/d2-projects/d2-admin/blob/master/.env)
 
