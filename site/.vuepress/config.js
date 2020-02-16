@@ -40,8 +40,8 @@ module.exports = {
             text: 'Document',
             items: [
               { text: 'd2-admin', link: '/zh/doc/d2-admin/' },
-              { text: 'd2-crud v2.x', link: '/zh/doc/d2-crud-v2/' },
-              { text: 'd2-crud v1.x', link: '/zh/doc/d2-crud-v1/' }
+              { text: 'd2-crud v2', link: '/zh/doc/d2-crud-v2/' },
+              { text: 'd2-crud v1', link: '/zh/doc/d2-crud-v1/' }
             ]
           }
         ]
@@ -53,11 +53,11 @@ module.exports = {
         label: '简体中文',
         nav: [
           {
-            text: '项目文档',
+            text: '文档',
             items: [
               { text: 'd2-admin', link: '/zh/doc/d2-admin/' },
-              { text: 'd2-crud v2.x', link: '/zh/doc/d2-crud-v2/' },
-              { text: 'd2-crud v1.x', link: '/zh/doc/d2-crud-v1/' }
+              { text: 'd2-crud v2', link: '/zh/doc/d2-crud-v2/' },
+              { text: 'd2-crud v1', link: '/zh/doc/d2-crud-v1/' }
             ]
           }
         ],
