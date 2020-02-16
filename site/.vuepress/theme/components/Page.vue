@@ -23,4 +23,8 @@ export default {
 .page
   padding-bottom 2rem
   display block
+  // 移除外部链接的右上角图标
+  .icon.outbound {
+    display: none;
+  }
 </style>
