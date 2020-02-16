@@ -90,7 +90,7 @@ function renderExternal (h, to, text) {
 
 a.sidebar-link
   font-size 1em
-  font-weight 400
+  font-weight 500
   display inline-block
   color $textColor
   // ---
@@ -106,7 +106,7 @@ a.sidebar-link
   &:hover
     background-color $sidebarLinkHoverBgColor
   &.active
-    font-weight 500
+    // font-weight 500
     color $accentColor
     // ---
     background-color $sidebarLinkActiveBgColor
@@ -121,6 +121,6 @@ a.sidebar-link
     border none
     // ---
     &.active
-      font-weight 500
+      // font-weight 500
       background-color $sidebarLinkHoverBgColor
 </style>
