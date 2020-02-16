@@ -27,4 +27,9 @@ export default {
   .icon.outbound {
     display: none;
   }
+  // 独占一行的图片增加一个小圆角
+  .theme-default-content.content__default
+    > p
+      > img
+        border-radius 0.15rem
 </style>
