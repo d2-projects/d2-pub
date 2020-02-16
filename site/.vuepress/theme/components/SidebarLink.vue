@@ -89,8 +89,8 @@ function renderExternal (h, to, text) {
   font-size 0.95em
 
 a.sidebar-link
-  font-size 1em
-  font-weight 500
+  font-size .9em
+  font-weight 400
   display inline-block
   color $textColor
   // ---
