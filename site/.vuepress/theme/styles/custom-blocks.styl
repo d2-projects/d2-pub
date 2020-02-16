@@ -1,5 +1,7 @@
 .custom-block
   border-radius: .3rem
+  div[class*="language-"]
+    background-color darken($codeBgColor, 5%)
   .custom-block-title
     font-weight 600
     margin-bottom -0.4rem
@@ -9,10 +11,10 @@
     border-left-style solid
     margin 1rem 0
   &.tip
-    background-color #f3f5f7
+    background-color #F5F7F9
     border-color $accentColor
   &.warning
-    background-color rgba(255,229,100,.3)
+    background-color #F5F7F9
     border-color darken(#ffe564, 35%)
     color darken(#ffe564, 70%)
     .custom-block-title
@@ -20,7 +22,7 @@
     a
       color $textColor
   &.danger
-    background-color #ffe6e6
+    background-color #F5F7F9
     border-color darken(red, 20%)
     color darken(red, 70%)
     .custom-block-title
