@@ -6,21 +6,23 @@ pageClass: page--custom-pre
 
 [D2Admin](https://github.com/d2-projects/d2-admin) 是一个完全 **开源免费** 的企业中后台产品前端集成方案，使用最新的前端技术栈，小于 60kb 的本地首屏 js 加载，已经做好大部分项目前期准备工作，并且带有大量示例代码，助力管理系统快速开发。
 
-## 仓库
+### 完整版
 
-完整版
+* 仓库：
+[Github](https://github.com/d2-projects/d2-admin) / 
+[码云](https://gitee.com/fairyever/d2-admin) / 
+[coding](https://d2-projects.coding.net/p/d2-projects/d/d2-admin/git)
+* 预览：
+[https://d2.pub/d2-admin/preview](https://d2.pub/d2-admin/preview)
 
-[Github](https://github.com/d2-projects/d2-admin) | 
-[码云](https://gitee.com/fairyever/d2-admin) | 
-[coding](https://d2-projects.coding.net/p/d2-projects/d/d2-admin/git) | 
-[预览](https://d2.pub/d2-admin/preview/)
+### 简化版
 
-简化版模板
-
-[Github](https://github.com/d2-projects/d2-admin-start-kit) | 
-[码云](https://gitee.com/fairyever/d2-admin-start-kit) | 
-[coding](https://d2-projects.coding.net/p/d2-projects/d/d2-admin-start-kit/git) | 
-[预览](https://d2.pub/d2-admin-start-kit/preview)
+* 仓库：
+[Github](https://github.com/d2-projects/d2-admin-start-kit) / 
+[码云](https://gitee.com/fairyever/d2-admin-start-kit) / 
+[coding](https://d2-projects.coding.net/p/d2-projects/d/d2-admin-start-kit/git)
+* 预览：
+[https://d2.pub/d2-admin-start-kit/preview](https://d2.pub/d2-admin-start-kit/preview)
 
 ## 功能
 
