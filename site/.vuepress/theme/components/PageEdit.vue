@@ -4,7 +4,7 @@
       <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
     </div>
     <div class="last-updated" v-if="lastUpdated">
-      <span class="prefix">{{ lastUpdatedText }}:</span>
+      <span class="prefix">{{ lastUpdatedText }} : </span>
       <span class="time">{{ lastUpdated }}</span>
     </div>
   </footer>
@@ -84,19 +84,23 @@ export default {
   padding-bottom 1rem
   overflow auto
   .edit-link
+    user-select none
     display inline-block
     a
       color lighten($textColor, 25%)
       margin-right 0.25rem
+      &:hover
+        color $accentColor
   .last-updated
+    user-select none
     float right
-    font-size 0.9em
+    // font-size 0.9em
     .prefix
       font-weight 500
       color lighten($textColor, 25%)
     .time
       font-weight 400
-      color #aaa
+      color $textInfoColor
 @media (max-width: $MQMobile)
   .page-edit
     .edit-link

@@ -131,6 +131,7 @@ function flatten (items, res) {
 @require '../styles/wrapper.styl'
 .page-nav
   @extend $wrapper
+  user-select none
   padding-top 1rem
   padding-bottom 0
   a {
@@ -158,14 +159,14 @@ function flatten (items, res) {
       font-size 0.6rem
       line-height 0.6rem
       font-weight 400
-      color #9DAAB6
+      color $textInfoColor
       margin-bottom 0.5rem
     .page-nav-button--title
       font-size 1rem
       line-height 1rem
       font-weight 600
     .page-nav-button--arrow
-      color #9DAAB6
+      color $textInfoColor
       height 1.5rem
       width 1.5rem
 </style>
