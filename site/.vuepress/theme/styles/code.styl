@@ -32,7 +32,7 @@ pre[class*="language-"]::selection,
 pre[class*="language-"] ::selection,
 code[class*="language-"]::selection,
 code[class*="language-"] ::selection {
-	background-color darken($codeBgColor, 10%)
+	background-color darken($codeBgColor, 5%)
 }
 
 div[class*="language-"]
@@ -48,7 +48,7 @@ div[class*="language-"]
     width 100%
     line-height 1.4
     .highlighted
-      background-color rgba(0, 0, 0, 66%)
+      background-color darken($codeBgColor, 5%)
   pre, pre[class*="language-"]
     background transparent
     position relative
@@ -75,7 +75,7 @@ div[class*="language-"]
           display block
           width $lineNumbersWrapperWidth
           height 100%
-          background-color rgba(0, 0, 0, 66%)
+          background-color darken($codeBgColor, 5%)
     pre
       padding-left $lineNumbersWrapperWidth + 1 rem
       vertical-align middle
@@ -103,7 +103,7 @@ div[class*="language-"]
       width $lineNumbersWrapperWidth
       height 100%
       border-radius 6px 0 0 6px
-      border-right 1px solid rgba(0, 0, 0, 66%)
+      border-right 1px solid darken($codeBgColor, 5%)
       background-color $codeBgColor
 
 
