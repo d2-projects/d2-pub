@@ -43,12 +43,13 @@ export default {
     padding 1.5rem 0 1.5rem 1.5rem
     // 第一层菜单中 没有子菜单 直接显示的链接
     & > li > a.sidebar-link
-      font-size 1.1em
+      // 应该和 .sidebar-heading 一致
+      font-size 1em
       line-height 1.7
-      font-weight bold
+      font-weight 500
     // 第一层菜单中 非第一个项目
     & > li:not(:first-child)
-      margin-top .75rem
+      // margin-top .75rem
 
 @media (max-width: $MQMobile)
   .sidebar
