@@ -16,7 +16,20 @@ module.exports = {
     ['script', {}, 'var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "https://hm.baidu.com/hm.js?a4d73e21496377fe9f2ddb6b8c97440e";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();']
   ],
   themeConfig: {
+    // logo
     logo: 'https://cdn.d2.pub/files/image-hosting/20200215125540.png',
+    // 仓库主页
+    repo: 'https://github.com/d2-projects',
+    // 自定义仓库链接文字
+    repoLabel: 'Github',
+    // 假如你的文档仓库和项目本身不在一个仓库
+    docsRepo: 'd2-projects/d2-pub',
+    // 假如文档不是放在仓库的根目录下
+    docsDir: 'site',
+    // 默认是 false, 设置为 true 来启用
+    editLinks: true,
+    // 默认为 "Edit this page"
+    editLinkText: '帮助我们改善此页面！',
     // 多国语言
     locales: {
       '/': {
