@@ -28,11 +28,11 @@ module.exports = {
     docsDir: 'site',
     // 默认是 false, 设置为 true 来启用
     editLinks: true,
-    // 默认为 "Edit this page"
-    editLinkText: '帮助我们改善此页面！',
     // 多国语言
     locales: {
       '/': {
+        editLinkText: 'Edit this page',
+        lastUpdated: 'lastUpdated',
         selectText: 'Languages',
         label: 'English',
         nav: [
@@ -47,6 +47,8 @@ module.exports = {
         ]
       },
       '/zh/': {
+        editLinkText: '帮助我们改善此页面',
+        lastUpdated: '上一次修改于',
         selectText: '语言',
         label: '简体中文',
         nav: [

@@ -2,7 +2,6 @@
   <footer class="page-edit">
     <div class="edit-link" v-if="editLink">
       <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
-      <OutboundLink/>
     </div>
     <div class="last-updated" v-if="lastUpdated">
       <span class="prefix">{{ lastUpdatedText }}:</span>
@@ -21,18 +20,12 @@ export default {
       return this.$page.lastUpdated
     },
     lastUpdatedText () {
-      if (typeof this.$themeLocaleConfig.lastUpdated === 'string') {
-        return this.$themeLocaleConfig.lastUpdated
-      }
-      if (typeof this.$site.themeConfig.lastUpdated === 'string') {
-        return this.$site.themeConfig.lastUpdated
-      }
+      if (typeof this.$themeLocaleConfig.lastUpdated === 'string') return this.$themeLocaleConfig.lastUpdated
+      if (typeof this.$site.themeConfig.lastUpdated === 'string') return this.$site.themeConfig.lastUpdated
       return 'Last Updated'
     },
     editLink () {
-      const showEditLink = isNil(this.$page.frontmatter.editLink)
-        ? this.$site.themeConfig.editLinks
-        : this.$page.frontmatter.editLink
+      const showEditLink = isNil(this.$page.frontmatter.editLink) ? this.$site.themeConfig.editLinks : this.$page.frontmatter.editLink
       const {
         repo,
         docsDir = '',
@@ -51,11 +44,7 @@ export default {
       return null
     },
     editLinkText () {
-      return (
-        this.$themeLocaleConfig.editLinkText
-        || this.$site.themeConfig.editLinkText
-        || `Edit this page`
-      )
+      return this.$themeLocaleConfig.editLinkText || this.$site.themeConfig.editLinkText || 'Edit this page'
     }
   },
   methods: {
