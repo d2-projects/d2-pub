@@ -40,6 +40,7 @@ module.exports = {
             text: 'Document',
             items: [
               { text: 'd2-admin', link: '/zh/doc/d2-admin/' },
+              { text: 'd2-admin-xiya-go-cms', link: '/zh/doc/d2-admin-xiya-go-cms/' },
               { text: 'd2-crud v2', link: '/zh/doc/d2-crud-v2/' },
               { text: 'd2-crud v1', link: '/zh/doc/d2-crud-v1/' }
             ]
@@ -56,6 +57,7 @@ module.exports = {
             text: '文档',
             items: [
               { text: 'd2-admin', link: '/zh/doc/d2-admin/' },
+              { text: 'd2-admin-xiya-go-cms', link: '/zh/doc/d2-admin-xiya-go-cms/' },
               { text: 'd2-crud v2', link: '/zh/doc/d2-crud-v2/' },
               { text: 'd2-crud v1', link: '/zh/doc/d2-crud-v1/' }
             ]
@@ -90,6 +92,9 @@ module.exports = {
             { title: 'webpack', path: 'webpack/' },
             { title: '常见问题', path: 'question/' },
             { title: '其它', path: 'other/' }
+          ],
+          '/zh/doc/d2-admin-xiya-go-cms/': [
+            ''
           ],
           '/zh/doc/d2-crud-v2/': [
             '',
