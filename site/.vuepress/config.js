@@ -39,10 +39,25 @@ module.exports = {
           {
             text: 'Document',
             items: [
-              { text: 'd2-admin', link: '/zh/doc/d2-admin/' },
-              { text: 'd2-admin-xiya-go-cms', link: '/zh/doc/d2-admin-xiya-go-cms/' },
-              { text: 'd2-crud v2', link: '/zh/doc/d2-crud-v2/' },
-              { text: 'd2-crud v1', link: '/zh/doc/d2-crud-v1/' }
+              {
+                text: 'Scaffold',
+                items: [
+                  { text: 'd2-admin', link: '/zh/doc/d2-admin/' }
+                ]
+              },
+              {
+                text: 'Component',
+                items: [
+                  { text: 'd2-crud v2', link: '/zh/doc/d2-crud-v2/' },
+                  { text: 'd2-crud v1', link: '/zh/doc/d2-crud-v1/' }
+                ]
+              },
+              {
+                text: 'Open source adaptable',
+                items: [
+                  { text: 'd2-admin-xiya-go-cms', link: '/zh/doc/d2-admin-xiya-go-cms/' }
+                ]
+              }
             ]
           }
         ]
@@ -56,10 +71,25 @@ module.exports = {
           {
             text: '文档',
             items: [
-              { text: 'd2-admin', link: '/zh/doc/d2-admin/' },
-              { text: 'd2-admin-xiya-go-cms', link: '/zh/doc/d2-admin-xiya-go-cms/' },
-              { text: 'd2-crud v2', link: '/zh/doc/d2-crud-v2/' },
-              { text: 'd2-crud v1', link: '/zh/doc/d2-crud-v1/' }
+              {
+                text: '脚手架',
+                items: [
+                  { text: 'd2-admin', link: '/zh/doc/d2-admin/' }
+                ]
+              },
+              {
+                text: '组件',
+                items: [
+                  { text: 'd2-crud v2', link: '/zh/doc/d2-crud-v2/' },
+                  { text: 'd2-crud v1', link: '/zh/doc/d2-crud-v1/' }
+                ]
+              },
+              {
+                text: '开源适配',
+                items: [
+                  { text: 'd2-admin-xiya-go-cms', link: '/zh/doc/d2-admin-xiya-go-cms/' }
+                ]
+              }
             ]
           }
         ],
