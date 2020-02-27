@@ -42,7 +42,7 @@
 
 > 树图生成 by [Folder Explorer](https://github.com/d2-projects/folder-explorer)
 
-```
+``` tree
 ├─.browserslistrc ----------------- // 浏览器兼容设置
 ├─.env ---------------------------- // 环境变量
 ├─.env.development ---------------- // 环境变量 开发
