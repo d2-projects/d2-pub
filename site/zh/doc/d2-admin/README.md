@@ -87,7 +87,7 @@ pageClass: page--custom-pre
 
 > 树图生成 by [Folder Explorer](https://github.com/d2-projects/folder-explorer)
 
-``` tree
+```
 ├─.DS_Store 
 ├─.browserslistrc ------------------- // 目标浏览器配置
 ├─.env ------------------------------ // 基础环境变量配置

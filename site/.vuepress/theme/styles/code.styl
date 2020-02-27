@@ -106,10 +106,6 @@ div[class*="language-"]
       border-right 1px solid darken($codeBgColor, 5%)
       background-color $codeBgColor
 
-div.language-tree
-  pre.language-text
-    line-height: 1.2;
-
 for lang in $codeLang
   div{'[class~="language-' + lang + '"]'}
     &:before
