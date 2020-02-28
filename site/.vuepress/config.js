@@ -42,20 +42,26 @@ module.exports = {
               {
                 text: 'Scaffold',
                 items: [
-                  { text: 'd2-admin', link: '/zh/doc/d2-admin/' }
+                  { text: 'D2 Admin', link: '/zh/doc/d2-admin/' }
                 ]
               },
               {
                 text: 'Component',
                 items: [
-                  { text: 'd2-crud v2', link: '/zh/doc/d2-crud-v2/' },
-                  { text: 'd2-crud v1', link: '/zh/doc/d2-crud-v1/' }
+                  { text: 'D2 CRUD v2', link: '/zh/doc/d2-crud-v2/' },
+                  { text: 'D2 CRUD v1', link: '/zh/doc/d2-crud-v1/' }
                 ]
               },
               {
                 text: 'Open source adaptable',
                 items: [
-                  { text: 'd2-admin-xiya-go-cms', link: '/zh/doc/d2-admin-xiya-go-cms/' }
+                  { text: 'D2 Admin xiya go cms', link: '/zh/doc/d2-admin-xiya-go-cms/' }
+                ]
+              },
+              {
+                text: 'Tools',
+                items: [
+                  { text: 'Folder Explorer', link: '/zh/doc/folder-explorer/' }
                 ]
               }
             ]
@@ -74,20 +80,26 @@ module.exports = {
               {
                 text: '脚手架',
                 items: [
-                  { text: 'd2-admin', link: '/zh/doc/d2-admin/' }
+                  { text: 'D2 Admin', link: '/zh/doc/d2-admin/' }
                 ]
               },
               {
                 text: '组件',
                 items: [
-                  { text: 'd2-crud v2', link: '/zh/doc/d2-crud-v2/' },
-                  { text: 'd2-crud v1', link: '/zh/doc/d2-crud-v1/' }
+                  { text: 'D2 CRUD v2', link: '/zh/doc/d2-crud-v2/' },
+                  { text: 'D2 CRUD v1', link: '/zh/doc/d2-crud-v1/' }
                 ]
               },
               {
                 text: '开源适配',
                 items: [
-                  { text: 'd2-admin-xiya-go-cms', link: '/zh/doc/d2-admin-xiya-go-cms/' }
+                  { text: 'D2 Admin xiya go cms', link: '/zh/doc/d2-admin-xiya-go-cms/' }
+                ]
+              },
+              {
+                text: '工具',
+                items: [
+                  { text: 'Folder Explorer', link: '/zh/doc/folder-explorer/' }
                 ]
               }
             ]
@@ -123,9 +135,6 @@ module.exports = {
             { title: '常见问题', path: 'question/' },
             { title: '其它', path: 'other/' }
           ],
-          '/zh/doc/d2-admin-xiya-go-cms/': [
-            ''
-          ],
           '/zh/doc/d2-crud-v2/': [
             '',
             'guide',
@@ -148,6 +157,12 @@ module.exports = {
             },
             'events',
             'slots'
+          ],
+          '/zh/doc/d2-admin-xiya-go-cms/': [
+            ''
+          ],
+          '/zh/doc/folder-explorer/': [
+            ''
           ]
         }
       }
