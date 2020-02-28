@@ -6,25 +6,33 @@
 
 扫描目录，分析文件结构和统计信息，给任意文件添加备注，导出带注释的树形文本和其它多种数据格式，大大方便书写技术文档。
 
-如果你需要它，你会很爱它。如果你不需要，可能永远不会需要。
-
-* Github：[folder-explorer](https://github.com/d2-projects/folder-explorer)
-* 码云：[folder-explorer](https://gitee.com/fairyever/folder-explorer)
-* 介绍：[《使用可视化界面自定义输出带注释的项目文件树形结构》](https://juejin.im/post/5d8d83656fb9a04ddb3b6630)
-
 ![](https://cdn.d2.pub/files/image-hosting/20190926165513.png)
 
-开发这个软件的初衷是为了方便我书写我的 [项目文档](https://d2.pub/zh/doc/d2-admin)，其中有一部分内容根据用户的反馈来看，需要详细展示项目的重要目录分别的作用。
+开发这个软件的初衷是为了方便我书写我的 [项目文档](https://d2.pub/zh/doc/d2-admin)，其中有一部分内容根据用户的反馈来看，需要详细展示项目的重要目录分别的作用。之后我找了一下发现能实现导出这类树形结构文字的项目大致有两种，一类是网络上分享的脚本，一类是可以读取开源仓库信息的在线工具。
 
-我找了一下发现能实现导出这类树形结构文字的项目大致有两种，一类是网络上分享的脚本，一类是可以读取开源仓库信息的在线工具。
+大致需求是：
 
-我的大致需求是，1 扫描目录 2 编辑注释 3 导出美观的结构图 4 可以隐藏我希望忽略的文件。现有的方案显然都不方便，所以我忙里偷闲制作了这个软件。
+1. 扫描目录
+2. 编辑注释
+3. 导出美观的结构图
+4. 可以隐藏我希望忽略的文件
+
+现有的方案显然都不方便，所以我忙里偷闲制作了这个软件，如果你和我一样恰巧也需要它，你会很爱它。如果你不需要，可能永远不会需要。
+
+相关文章：[《使用可视化界面自定义输出带注释的项目文件树形结构》](https://juejin.im/post/5d8d83656fb9a04ddb3b6630)
 
 ## 下载
 
-macOS | windows | Linux
+下载 macOS 或 windows 或 Linux 版本的构建结果：[releases](https://github.com/d2-projects/folder-explorer/releases)
 
-[releases](https://github.com/d2-projects/folder-explorer/releases)
+## 仓库
+
+| 位置 | 链接 |
+| --- | --- |
+| GitHub | [https://github.com/d2-projects/folder-explorer](https://github.com/d2-projects/folder-explorer) |
+| 码云 | [https://gitee.com/fairyever/folder-explorer](https://gitee.com/fairyever/folder-explorer) |
+
+> 如果您在 github 仓库下载很慢，可以尝试使用我们的码云仓库克隆代码
 
 ## 功能
 
@@ -47,10 +55,6 @@ macOS | windows | Linux
 * 项目文档书写，附上文件结构和注释可以更清晰地让别人上手项目
 * 展示课程目录，如果你是讲师，可以一口气将你的课程所有章节生成树形结构展示
 * 统计某个资源文件夹中的文件大小分布，例如分析你的照片文件夹，或者一目了然磁盘里每部电影占了多大空间
-
-## 技术方案
-
-[vue-cli3](https://cli.vuejs.org/zh/) 生成的基础项目，使用 [vue-cli-plugin-electron-builder](https://github.com/nklayman/vue-cli-plugin-electron-builder) 将其转化为可以使用 [electron](https://electronjs.org) 打包的桌面项目。
 
 ## 详细功能介绍
 

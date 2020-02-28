@@ -85,7 +85,9 @@ pageClass: page--custom-pre
 
 ## 项目结构
 
-> 树图生成 by [Folder Explorer](https://github.com/d2-projects/folder-explorer)
+::: tip 树形图生成工具
+[Folder Explorer](https://github.com/d2-projects/folder-explorer)
+:::
 
 ```
 ├─.DS_Store 
