@@ -1,8 +1,6 @@
 # D2Admin GO CMS 适配
 
-基于 [D2Admin v1.7.2](https://github.com/d2-projects/d2-admin/releases/tag/1.7.2) 开发的 [golang](https://golang.org) cms 管理后台，基于 [D2Admin](https://github.com/d2-projects/d2-admin) 实现了 **动态菜单**、**动态路由**、**权限控制** 和 **多环境切换**。
-
-请配合服务端 [xiya-team/go-cms](https://github.com/xiya-team/go-cms) 使用。
+基于 [D2Admin v1.7.2](https://github.com/d2-projects/d2-admin/releases/tag/1.7.2) 开发的 [golang](https://golang.org) cms 管理后台，实现了 **动态菜单**、**动态路由**、**权限控制** 和 **多环境切换**，请配合服务端 [xiya-team/go-cms](https://github.com/xiya-team/go-cms) 使用。
 
 ::: tip 名称由来
 只包含系统设置功能，未实现 cms 常见的内容管理功能，因对应的服务端仓库为 `xiya-team/go-cms` 遂本仓库取名 `d2-admin-xiya-go-cms`
