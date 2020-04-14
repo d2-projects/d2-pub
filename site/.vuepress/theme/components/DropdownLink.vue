@@ -14,10 +14,10 @@
           <h4 v-if="subItem.type === 'links'">{{ subItem.text }}</h4>
           <ul class="dropdown-subitem-wrapper" v-if="subItem.type === 'links'">
             <li class="dropdown-subitem" :key="childSubItem.link" v-for="childSubItem in subItem.items">
-              <NavLink @focusout="isLastItemOfArray(childSubItem, subItem.items) && isLastItemOfArray(subItem, item.items) && toggle()" :item="childSubItem"/>
+              <NavLink :item="childSubItem"/>
             </li>
           </ul>
-          <NavLink v-else @focusout="isLastItemOfArray(subItem, item.items) && toggle()" :item="subItem"/>
+          <NavLink v-else :item="subItem"/>
         </li>
       </ul>
     </DropdownTransition>
@@ -48,7 +48,7 @@ export default {
   },
   methods: {
     toggle () {
-      this.open = !this.open
+      // this.open = !this.open
     },
     isLastItemOfArray (item, array) {
       return last(array) === item
