@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev site",
-    "build": "vuepress build site"
+    "build": "vuepress build site",
+    "git-add-all": "git add .",
+    "git-cz": "git cz",
+    "git-push-master": "git push origin master"
   },
   "repository": {
     "type": "git",
@@ -18,10 +21,17 @@
   },
   "homepage": "https://github.com/d2-projects/d2.pub#readme",
   "devDependencies": {
+    "cz-conventional-changelog": "3.1.0",
     "vuepress": "^1.2.0"
   },
   "dependencies": {
+    "commitizen": "^4.0.4",
     "flex.css": "^1.1.7",
     "lodash": "^4.17.15"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

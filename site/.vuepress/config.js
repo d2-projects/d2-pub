@@ -55,7 +55,8 @@ module.exports = {
               {
                 text: 'Open source adaptable',
                 items: [
-                  { text: 'D2 Admin xiya go cms', link: '/zh/doc/d2-admin-xiya-go-cms/' }
+                  { text: 'D2 Admin xiya go cms', link: '/zh/doc/d2-admin-xiya-go-cms/' },
+                  { text: 'D2 Advance', link: '/zh/doc/d2-advance/' }
                 ]
               },
               {
@@ -93,7 +94,8 @@ module.exports = {
               {
                 text: '开源适配',
                 items: [
-                  { text: 'D2 Admin xiya go cms', link: '/zh/doc/d2-admin-xiya-go-cms/' }
+                  { text: 'D2 Admin xiya go cms', link: '/zh/doc/d2-admin-xiya-go-cms/' },
+                  { text: 'D2 Advance', link: '/zh/doc/d2-advance/' }
                 ]
               },
               {
@@ -162,6 +164,9 @@ module.exports = {
             ''
           ],
           '/zh/doc/folder-explorer/': [
+            ''
+          ],
+          '/zh/doc/d2-advance/': [
             ''
           ]
         }
