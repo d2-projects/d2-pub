@@ -10,7 +10,7 @@ pageClass: page--custom-pre
 
 * 仓库：
 [Github](https://github.com/d2-projects/d2-admin) / 
-[码云](https://gitee.com/fairyever/d2-admin) / 
+[码云](https://gitee.com/d2-projects/d2-admin) / 
 [coding](https://d2-projects.coding.net/p/d2-projects/d/d2-admin/git)
 * 预览：
 [https://d2.pub/d2-admin/preview](https://d2.pub/d2-admin/preview)
@@ -19,7 +19,7 @@ pageClass: page--custom-pre
 
 * 仓库：
 [Github](https://github.com/d2-projects/d2-admin-start-kit) / 
-[码云](https://gitee.com/fairyever/d2-admin-start-kit) / 
+[码云](https://gitee.com/d2-projects/d2-admin-start-kit) / 
 [coding](https://d2-projects.coding.net/p/d2-projects/d/d2-admin-start-kit/git)
 * 预览：
 [https://d2.pub/d2-admin-start-kit/preview](https://d2.pub/d2-admin-start-kit/preview)

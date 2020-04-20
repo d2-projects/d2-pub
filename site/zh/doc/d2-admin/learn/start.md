@@ -73,9 +73,9 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 前往仓库下载源码：
 
-* 完整版仓库 [Github](https://github.com/d2-projects/d2-admin) | [码云](https://gitee.com/fairyever/d2-admin)
+* 完整版仓库 [Github](https://github.com/d2-projects/d2-admin) | [码云](https://gitee.com/d2-projects/d2-admin)
 
-* 简化版起始模板 [Github](https://github.com/d2-projects/d2-admin-start-kit) | [码云](https://gitee.com/fairyever/d2-admin-start-kit)
+* 简化版起始模板 [Github](https://github.com/d2-projects/d2-admin-start-kit) | [码云](https://gitee.com/d2-projects/d2-admin-start-kit)
 
 挑选一个您喜欢的网站 Fork 代码到您的仓库，然后下载或克隆。
 
