@@ -4,6 +4,8 @@ sidebar: auto
 
 # Storybook vue
 
+供快速进行页面开发和部署的极简 vue.js 模板。
+
 [GitHub](https://github.com/d2-projects/storybook-vue)
 
 ![](https://cdn.d2.pub/files/image-hosting/20200424155542.png)
@@ -130,6 +132,10 @@ yarn dev
   </story-container>
 </template>
 ```
+
+## 页面和路由规则
+
+自动生成路由的规则见 [vue-route-generator](https://github.com/ktsn/vue-route-generator)，项目中使用 [vue-cli-plugin-auto-routing](https://github.com/ktsn/vue-cli-plugin-auto-routing) 实现自动生成路由配置，并依据生成的路由数据计算出菜单显示。
 
 ## 提交
 
