@@ -60,9 +60,10 @@ module.exports = {
                 ]
               },
               {
-                text: 'Tools',
+                text: 'Other',
                 items: [
-                  { text: 'Folder Explorer', link: '/zh/doc/folder-explorer/' }
+                  { text: 'Folder Explorer', link: '/zh/doc/folder-explorer/' },
+                  { text: 'Storybook Vue', link: '/zh/doc/storybook-vue/' }
                 ]
               }
             ]
@@ -99,9 +100,10 @@ module.exports = {
                 ]
               },
               {
-                text: '工具',
+                text: '其它项目',
                 items: [
-                  { text: 'Folder Explorer', link: '/zh/doc/folder-explorer/' }
+                  { text: 'Folder Explorer', link: '/zh/doc/folder-explorer/' },
+                  { text: 'Storybook Vue', link: '/zh/doc/storybook-vue/' }
                 ]
               }
             ]
@@ -164,6 +166,9 @@ module.exports = {
             ''
           ],
           '/zh/doc/folder-explorer/': [
+            ''
+          ],
+          '/zh/doc/storybook-vue/': [
             ''
           ],
           '/zh/doc/d2-advance/': [
