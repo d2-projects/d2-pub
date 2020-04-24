@@ -48,8 +48,7 @@ module.exports = {
               {
                 text: 'Component',
                 items: [
-                  { text: 'D2 CRUD v2', link: '/zh/doc/d2-crud-v2/' },
-                  { text: 'D2 CRUD v1', link: '/zh/doc/d2-crud-v1/' }
+                  { text: 'D2 CRUD', link: '/zh/doc/d2-crud-v2/' }
                 ]
               },
               {
@@ -88,8 +87,7 @@ module.exports = {
               {
                 text: '组件',
                 items: [
-                  { text: 'D2 CRUD v2', link: '/zh/doc/d2-crud-v2/' },
-                  { text: 'D2 CRUD v1', link: '/zh/doc/d2-crud-v1/' }
+                  { text: 'D2 CRUD', link: '/zh/doc/d2-crud-v2/' }
                 ]
               },
               {
