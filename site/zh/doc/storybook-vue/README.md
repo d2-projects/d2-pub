@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Storybook vue
 
 ![](https://cdn.d2.pub/files/image-hosting/20200424155542.png)
@@ -56,6 +60,8 @@ yarn dev
 至此已可以开始您的书写。
 
 ## 提交
+
+### 准则
 
 请使用 [angular 提交准则](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit)，具体可参考：[https://www.conventionalcommits.org/zh-hans](https://www.conventionalcommits.org/zh-hans)
 
@@ -141,6 +147,8 @@ cz-cli@4.0.3, cz-conventional-changelog@3.1.0
 请确认您项目中的 package.json 文件中 `repository.url` 必须为您仓库的 git 地址。
 :::
 
+### 准备
+
 在开始部署之前您需要配置项目的 `ACCESS_TOKEN`。
 
 ![](https://cdn.d2.pub/files/image-hosting/20200424171017.png)
@@ -162,6 +170,8 @@ cz-cli@4.0.3, cz-conventional-changelog@3.1.0
 ![](https://cdn.d2.pub/files/image-hosting/20200424172214.png)
 
 至此部署准备完成。
+
+### 规则
 
 项目基于 GitHub Action 实现自动发版和部署。具体规则如下：
 

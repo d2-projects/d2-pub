@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Folder Explorer
 
 ![](https://cdn.d2.pub/files/image-hosting/20190926165444.png)

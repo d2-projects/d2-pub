@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # D2 Advance
 
 D2 Advance 是受 [D2 Admin](https://github.com/d2-projects/d2-admin/) 交互设计影响启发的新项目。保留 D2 Admin 经典设计的同时，**整理出清晰的架构、提升代码质量和规范开发流程**，探索中后台及其以外的更多应用场景。
