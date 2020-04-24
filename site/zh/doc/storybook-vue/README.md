@@ -4,6 +4,8 @@ sidebar: auto
 
 # Storybook vue
 
+[GitHub](https://github.com/d2-projects/storybook-vue)
+
 ![](https://cdn.d2.pub/files/image-hosting/20200424155542.png)
 
 ## 介绍
