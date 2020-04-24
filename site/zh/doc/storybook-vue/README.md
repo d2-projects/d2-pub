@@ -12,22 +12,51 @@ sidebar: auto
 
 * 开箱即用的开发环境
 * 立刻基于 vue.js 快速开始编写一系列页面代码
-* 自动根据文件结构生成所有页面的菜单，支持文件结构映射
+* 自动根据本地文件结构自动生成所有页面的入口菜单
 * 自动在 GitHub 上自动部署网站方便预览和分享
 * 自动在预览网站生成每个页面的源码链接
 * 自动基于您的 git 提交记录在 GitHub 上发布新的版本
 
-简单来说这是一个功能非常克制的精简项目框架，但是又准备好了很多实用的基础功能。
+你要做的就是在想写点什么的时候，直接基于这个模板开始写内容就好了，写完一页，新建文件再写一页，路由和菜单自动为你生成。
+
+敲几下回车就能提交。
+
+配置一个 token 就能部署。
+
+没有什么复杂功能，**只是帮你做了一些自己做会浪费时间的准备**，我也是没用多长时间准备这些代码，但是为了节约后人时间，我用了比代码几倍的时间准备这篇文档。
+
+**正如其名字，这是一本故事书，你的故事书写之前这只是一个简单的本子。**
+
+::: tip 作者注
+我本人厌烦了很多时候测试小东西要新建项目还要搞趁手这段时间的浪费。
+:::
+
+## 替你准备好了什么
+
+简单来说这是一个功能 **`非`** **`常`** **`克`** **`制`** 的精简框架。
+
+* 基于 cli4 的基础项目结构
+* 组件自动注册方案
+* 路由自动注册方案
+* 菜单自动生成方案
+* 部署后每个页面查看对应源码的功能
+* 更美观的滚动条
+* 配置好的 CI 文件帮你自动发版和部署
+* 符合 angular 提交准则的 git 工具
+* 一个简洁的布局，一个简单的页面容器组件
+* ElementUI 和 lodash
 
 ## 适用场景
 
 * 有简单的多页面书写需求，并希望完成后可以在线预览
-* 学习过程中测试代码，最好还支持多级目录分类
+* 学习过程中想试验一下
+* 分别尝试某个插件的很多功能
 * 部署一个简单的展示网页
 
 ## 不适用场景
 
-* 你真的想正式写一个全功能网站
+* 你想正式写一个全功能网站
+* 你只是需要一个记事本，它不如普通的记事本方便
 
 ## 前提要求
 
@@ -59,6 +88,46 @@ yarn dev
 
 至此已可以开始您的书写。
 
+## 内置组件
+
+### github-ribbon
+
+![](https://cdn.d2.pub/files/image-hosting/20200424213459.png)
+
+右上角的 GitHub 链接绶带，无可接受参数，使用了 [d2-ribbons](https://github.com/d2-projects/d2-ribbons) 中的设计，渲染效果是附带图片的 `position: fixed` 链接，固定在屏幕右上角，默认链接根据 package.json 中的信息自动指向当前仓库地址。
+
+::: tip
+如果你觉得默认图片样式不好看，可以到 [d2-ribbons](https://github.com/d2-projects/d2-ribbons) 换一个喜欢的样式
+:::
+
+### source-code
+
+一个 `<a>` 容器，无可接受参数，没有自身样式，有默认 slot。功能是跳转到当前页面的源码页面。仓库地址根据 package.json 中的信息确定，自动确定源码路径依赖 [vue-filename-injector](https://github.com/d2-projects/vue-filename-injector) 实现。
+
+使用示例：
+
+``` vue
+<source-code>
+  <button>点我查看本页源码</button>
+</source-code>
+```
+
+### story-container
+
+页面内容容器，无可接受参数，每个页面的根组件应该使用它。具有 `default` `header` `footer` slot。
+
+使用示例：
+
+``` vue
+<template>
+  <story-container>
+    <template slot="header">我是页头</template>
+    我是页面内容
+    <template slot="footer">我是页脚</template>
+  </story-container>
+</template>
+```
+
 ## 提交
 
 ### 准则
@@ -83,24 +152,7 @@ git cz
 
 ``` sh
 git status
-On branch master
-Your branch is based on 'origin/master', but the upstream is gone.
-  (use "git branch --unset-upstream" to fixup)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	modified:   src/pages/index.vue
-
-no changes added to commit (use "git add" and/or "git commit -a")
-```
-
-``` sh
 git add .
-```
-
-``` sh
 git cz
 cz-cli@4.0.3, cz-conventional-changelog@3.1.0
 
