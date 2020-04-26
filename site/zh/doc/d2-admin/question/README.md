@@ -2,6 +2,26 @@
 
 本章总结收到的用户反馈问题，集中展示，方便后续用户自助解决问题
 
+## 如何新增一个主题
+
+新增主题所需的图片文件
+
+* `public/image/theme/your-theme-name/logo/all.png`
+* `public/image/theme/your-theme-name/logo/icon-only.png`
+* `public/image/theme/your-theme-name/preview@2x.png`
+
+新增主题样式文件
+
+* `src/assets/style/theme/your-theme-name/index.scss`
+* `src/assets/style/theme/your-theme-name/setting.scss`
+
+修改以下文件来注册新的主题
+
+* `src/assets/style/theme/register.scss`
+* `src/setting.js`
+
+示例请参考本次提交：[e3fd543](https://github.com/d2-projects/d2-admin/commit/e3fd543573d42f2f06c0214d34dea6263f8c3294)
+
 ## 代码下载慢
 
 建议使用 [Free Download Manager](http://www.freedownloadmanager.org/download.htm) 下载，速度会有显著提升
