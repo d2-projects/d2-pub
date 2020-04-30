@@ -110,7 +110,7 @@ node -p "[process.platform, process.arch, process.versions.modules].join('-')"
 
 [github https://github.com/sass/node-sass/releases](https://github.com/sass/node-sass/releases)
 
-下载完保存到任意位置，最好放置到 package.json 所在位置。然后我们需要手动指定 node-sass 二进制文件的下载源为下载的那个文件，以下是npm与yanr的指令：
+下载完保存到任意位置，最好放置到 package.json 所在位置。然后我们需要手动指定 node-sass 二进制文件的下载源为下载的那个文件，以下是npm与yarn的指令：
 
 npm
 
