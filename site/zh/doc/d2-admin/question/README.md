@@ -256,54 +256,6 @@ Cookies.set('uuid', res.uuid, setting)
 D2Admin 会在很多地方使用 cookie 中的此字段区分用户，比如不同用户选择的不同主题的数据持久化，还有不同用户打开的多标签页数据的持久化存储。
 :::
 
-## 异步请求无法携带 cookie
-
-请先确认您已经给 axios 设置了 `axios.defaults.withCredentials = true`：
-
-::: tip
-一般您应该在 src/plugin/axios/index.js 文件中设置 axios。
-:::
-
-较新的 D2Admin：
-
-``` js {4}
-const service = axios.create({
-  baseURL: process.env.VUE_APP_API,
-  timeout: 5000, // 请求超时时间
-  withCredentials: true
-})
-```
-
-或者在较老的 D2Admin 版本 axios 配置文件中添加高亮部分：
-
-``` js {3}
-import axios from 'axios'
-
-axios.defaults.withCredentials = true
-
-axios.interceptors.response.use(res => {
-  return res.data
-}, err => {
-  return Promise.reject(err)
-})
-
-export default {
-  install (Vue, options) {
-    Vue.prototype.$axios = axios
-  }
-}
-```
-
-通常这样您已经可以在发送异步请求的时候携带 cookie，但是在 D2 中很可能不行，您还需要禁用掉 mock.js，通常在 main.js 中，请注释掉相关引用代码，并保证 mock.js 没有在项目中其它任何地方被引用。
-
-::: tip 为什么这样做
-只要调用过 mock.js 的 mock 方法，他就会劫持 window 的 XMLHttpRequest 对象，用一个自己的 XHR 替换，那里面withCredentials 是 false 的，所以无法携带 cookie。
-:::
-
-::: tip 补充
-此问题在 [版本 1.5.3](https://github.com/d2-projects/d2-admin/releases/tag/1.5.3) 已经提供解决方案。
-:::
-
 ## 删除页面右上角 github 链接
 
 在 `src/components/demo/d2-demo-page-cover/index.vue` 中删除相关代码即可

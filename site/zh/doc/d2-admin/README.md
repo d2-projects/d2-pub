@@ -93,10 +93,6 @@ pageClass: page--custom-pre
 ├─.DS_Store 
 ├─.browserslistrc ------------------- // 目标浏览器配置
 ├─.env ------------------------------ // 基础环境变量配置
-├─.env.development ------------------ // 开发模式下的环境变量配置
-├─.env.netlify ---------------------- // Netlify 构建时的环境变量
-├─.env.nomock ----------------------- // 无 mock 数据构建模式下的环境变量
-├─.env.travis ----------------------- // Travis 构建时的环境变量
 ├─.eslintignore --------------------- // ESLint 的忽略目录配置
 ├─.eslintrc.js ---------------------- // ESLint 的配置文件
 ├─.github --------------------------- // Github 配置
@@ -201,10 +197,6 @@ pageClass: page--custom-pre
 │ │   ├─demo-frame.js 
 │ │   ├─demo-playground.js 
 │ │   └─demo-plugins.js 
-│ ├─mock 
-│ │ ├─api --------------------------- // 需要注册的接口
-│ │ ├─d2-mock ----------------------- // 简化接口注册的工具
-│ │ └─index.js ---------------------- // mock 数据自动注册
 │ ├─plugin -------------------------- // 插件
 │ │ ├─axios ------------------------- // 网络请求
 │ │ ├─d2admin ----------------------- // 统一注册系统必须的资源
@@ -312,8 +304,7 @@ pageClass: page--custom-pre
 │   │   ├─export 
 │   │   ├─import 
 │   │   ├─index 
-│   │   ├─js-cookie 
-│   │   └─mock 
+│   │   └─js-cookie 
 │   └─system ------------------------ // 系统页面
 │     ├─error 
 │     ├─function 

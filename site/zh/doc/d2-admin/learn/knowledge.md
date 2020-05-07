@@ -45,7 +45,6 @@
 | [v-charts](https://v-charts.js.org/#/props) | vue 版本的 echarts 由饿了么开发 |
 | [echarts](http://echarts.baidu.com/index.html) | v-charts 的核心 |
 | [lowdb](https://github.com/typicode/lowdb) | D2Admin 操作本地数据的依赖 |
-| [mockjs](https://github.com/nuysoft/Mock/wiki) | 模拟请求依赖 |
 | [vue-i18n](https://kazupon.github.io/vue-i18n/guide/started.html) | 多国语依赖 |
 | [vue-grid-layout](https://github.com/jbaysolutions/vue-grid-layout) | 网格布局组件 |
 | [vue-splitpane](https://www.npmjs.com/package/vue-splitpane) | 切分布局组件 |
