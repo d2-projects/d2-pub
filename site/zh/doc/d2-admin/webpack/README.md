@@ -394,7 +394,7 @@ console.log(process.env.VUE_APP_SECRET)
 `.local` 也可以加在指定模式的环境文件上，比如 `.env.development.local` 将会在 development 模式下被载入，且被 git 忽略。
 
 ::: tip
-为了方便 D2Admin 的开发者更快速上手 vue-cli3 的配置方式，摘抄了 [vue-docs-zh-cn](https://github.com/vuejs/vue-docs-zh-cn) 项目中有用的几个部分，几乎没有修改，望读着知悉。
+为了方便 D2Admin 的开发者更快速上手 vue-cli3 的配置方式，摘抄了 [vue-docs-zh-cn](https://github.com/vuejs/vue-docs-zh-cn) 项目中有用的几个部分，几乎没有修改，望读者知悉。
 
 移至 [vue-cli3 官方网站](https://cli.vuejs.org../) 查阅完整 vue-cli3 官方文档。
 :::
