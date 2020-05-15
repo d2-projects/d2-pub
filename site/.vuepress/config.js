@@ -119,7 +119,7 @@ module.exports = {
             },
             {
               title: '插件',
-              children: [ 'plugin/data-export', 'plugin/data-import', 'plugin/filters-dayjs', 'plugin/i18n', 'plugin/error', 'plugin/log', 'plugin/console' ]
+              children: [ 'plugin/data-export', 'plugin/data-import', 'plugin/i18n', 'plugin/error', 'plugin/log', 'plugin/console' ]
             },
             {
               title: 'vuex',
