@@ -4,7 +4,7 @@
       class="dropdown-title"
       type="button"
       :aria-label="dropdownAriaLabel"
-      @click="toggle">
+      @click="setOpen(!open)">
       <span class="title">{{ item.text }}</span>
       <span class="arrow" :class="open ? 'down' : 'right'"></span>
     </button>
@@ -14,10 +14,10 @@
           <h4 v-if="subItem.type === 'links'">{{ subItem.text }}</h4>
           <ul class="dropdown-subitem-wrapper" v-if="subItem.type === 'links'">
             <li class="dropdown-subitem" :key="childSubItem.link" v-for="childSubItem in subItem.items">
-              <NavLink :item="childSubItem"/>
+              <NavLink :item="childSubItem" @focusout="isLastItemOfArray(childSubItem, subItem.items) && isLastItemOfArray(subItem, item.items) && setOpen(false)"/>
             </li>
           </ul>
-          <NavLink v-else :item="subItem"/>
+          <NavLink v-else :item="subItem" @focusout="isLastItemOfArray(subItem, item.items) && setOpen(false)"/>
         </li>
       </ul>
     </DropdownTransition>
@@ -47,8 +47,8 @@ export default {
     }
   },
   methods: {
-    toggle () {
-      // this.open = !this.open
+    setOpen (value) {
+      this.open = value
     },
     isLastItemOfArray (item, array) {
       return last(array) === item
@@ -76,7 +76,6 @@ export default {
     border none
     font-weight 500
     color $textColor
-    pointer-events auto
     &:hover
       border-color transparent
     .arrow
