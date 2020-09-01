@@ -20,10 +20,6 @@ Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js �
 * 自动转换JSON数据
 * 浏览器端支持防止CSRF(跨站请求伪造)
 
-### 浏览器支持
-
-[![Browser Matrix](https://saucelabs.com/open_sauce/build_matrix/axios.svg)](https://saucelabs.com/u/axios)
-
 ## 使用方式
 
 axios 默认的使用方式在这里不做介绍，D2Admin 推荐在您的项目中使用下面的方式获取数据：
@@ -120,9 +116,9 @@ src/api 目录示例：
 
 ```
 ├─modules ---------- // 按功能模块划分成组的接口配置
-│ ├─goods.js
-│ ├─sys.role.js
-│ └─sys.user.js
+│ ├─goods.api.js
+│ ├─sys.role.api.js
+│ └─sys.user.api.js
 ├─index.js --------- // 入口
 ├─service.js ------- // 请求实例设置
 └─tools.js --------- // 相关工具函数
@@ -144,7 +140,12 @@ src/api 目录示例：
 
 #### modules
 
-modules 内的每个 .js 文件都会被调用，每个文件应该默认导出一个方法，这个方法接收一个对象作为参数，index.js 会将通用的方法通过此对象传递给每一个 module。
+modules 内任所有的 *.api.js 文件都会被调用，每个文件应该默认导出一个方法，这个方法接收一个对象作为参数，index.js 会将通用的方法通过此对象传递给每一个 module。
+
+::: tip 附注
+* 较旧版本只扫描 modules 目录下第一级目录 <Badge text="1.19.0" type="warning"/>
+* 在 modules 文件夹内扫描 *.api.js 而不是 *.js 的好处是这样允许您在 modules 文件夹内放置某些非接口配置的 js 文件，较旧的版本会识别所有的 js 文件 <Badge text="1.20.0" type="warning"/>
+:::
 
 参数对象默认情况下的结构：
 
