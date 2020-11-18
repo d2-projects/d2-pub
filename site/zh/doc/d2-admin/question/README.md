@@ -166,7 +166,7 @@ yarn config set sass-binary-site http://npm.taobao.org/mirrors/node-sass
 
 ## 关闭 ESLint 👎
 
-由于使用者技术水平参差不齐，有些朋友希望在开发时关闭 ESLint，虽然我不建议这样做，在这里也给出以下方法，或者你也可以在下面的链接里找到答案
+由于使用者技术水平参差不齐，有些开发者希望在开发时关闭 ESLint，虽然我不建议这样做，在这里也给出以下方法，或者你也可以在下面的链接里找到答案
 
 [ESLint 中文](http://eslint.cn/) | [ESLint 英文](https://eslint.org/)
 
@@ -284,7 +284,7 @@ npm ERR!     C:\Users\ZHZ\AppData\Roaming\npm-cache\_logs\2018-07-27T13_13_56_69
 
 解决方法
 
-目前只有一位朋友遇到这个问题，最后使用 cnpm 绕过了这个错误
+目前只有一位开发者遇到这个问题，最后使用 cnpm 绕过了这个错误
 
 ```
 npm install -g cnpm --registry=https://registry.npm.taobao.org
