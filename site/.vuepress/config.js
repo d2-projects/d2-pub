@@ -61,6 +61,7 @@ module.exports = {
               {
                 text: 'Other',
                 items: [
+                  { text: 'Iconfont Desktop', link: '/zh/doc/iconfont-desktop/' },
                   { text: 'Folder Explorer', link: '/zh/doc/folder-explorer/' },
                   { text: 'Storybook Vue', link: '/zh/doc/storybook-vue/' }
                 ]
