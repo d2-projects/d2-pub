@@ -42,7 +42,8 @@ module.exports = {
               {
                 text: 'Scaffold',
                 items: [
-                  { text: 'D2 Admin', link: '/zh/doc/d2-admin/' }
+                  { text: 'D2 Admin', link: '/zh/doc/d2-admin/' },
+                  { text: 'D2 Advance', link: '/zh/doc/d2-advance/' },
                 ]
               },
               {
@@ -55,7 +56,6 @@ module.exports = {
                 text: 'Open source adaptable',
                 items: [
                   { text: 'D2 Admin xiya go cms', link: '/zh/doc/d2-admin-xiya-go-cms/' },
-                  { text: 'D2 Advance', link: '/zh/doc/d2-advance/' }
                 ]
               },
               {
@@ -82,7 +82,8 @@ module.exports = {
               {
                 text: '脚手架',
                 items: [
-                  { text: 'D2 Admin', link: '/zh/doc/d2-admin/' }
+                  { text: 'D2 Admin', link: '/zh/doc/d2-admin/' },
+                  { text: 'D2 Advance', link: '/zh/doc/d2-advance/' },
                 ]
               },
               {
@@ -95,7 +96,6 @@ module.exports = {
                 text: '开源适配',
                 items: [
                   { text: 'D2 Admin xiya go cms', link: '/zh/doc/d2-admin-xiya-go-cms/' },
-                  { text: 'D2 Advance', link: '/zh/doc/d2-advance/' }
                 ]
               },
               {
@@ -170,9 +170,6 @@ module.exports = {
           '/zh/doc/storybook-vue/': [
             ''
           ],
-          '/zh/doc/d2-advance/': [
-            ''
-          ]
         }
       }
     }
