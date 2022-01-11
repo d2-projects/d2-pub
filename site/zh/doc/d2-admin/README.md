@@ -24,6 +24,9 @@ pageClass: page--custom-pre
 * 预览：
 [https://d2.pub/d2-admin-start-kit/preview](https://d2.pub/d2-admin-start-kit/preview)
 
+关于 完整版 与 简化版的选择 刚开始了解 D2Admin 建议使用 简化版 作为起始模板 因为在完整版的基础上做减法，要比在简化版基础上做加法复杂。  （本建议来自 快速上手）
+当然，更好的建议我觉得是两个版本都下载，然后完整版作为参考，用 简化版开始做事，用到需要的功能先去看看完整版里有没有，有就可以取过来用，不用再自己重做一遍了。
+
 ## 功能
 
 * 使用 vue-cli3 构建
