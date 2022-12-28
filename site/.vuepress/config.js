@@ -1,5 +1,5 @@
 module.exports = {
-  title: '数字工匠',
+  title: 'D2开源组',
   description: 'https://d2.pub',
   head: [
     ['link', { rel: 'icon', href: 'https://cdn.d2.pub/files/image-hosting/20200215125724.png' }],
