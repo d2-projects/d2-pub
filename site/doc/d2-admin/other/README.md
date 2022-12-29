@@ -39,12 +39,12 @@
 
 | D2Admin | nx-admin |
 | --- | --- |
-| ![](https://cdn.d2.pub/files/image-hosting/20180727103812.png) | ![](https://cdn.d2.pub/files/image-hosting/20180727103329.png) |
-| ![](https://cdn.d2.pub/files/image-hosting/20180727103923.png) | ![](https://cdn.d2.pub/files/image-hosting/20180727103931.png) |
-| ![](https://cdn.d2.pub/files/image-hosting/20180727104208.png) | ![](https://cdn.d2.pub/files/image-hosting/20180727104213.png) |
-| ![](https://cdn.d2.pub/files/image-hosting/20180727104225.png) | ![](https://cdn.d2.pub/files/image-hosting/20180727104232.png) |
-| ![](https://cdn.d2.pub/files/image-hosting/20180727104240.png) | ![](https://cdn.d2.pub/files/image-hosting/20180727104245.png) |
-| ![](https://cdn.d2.pub/files/image-hosting/20180729104137.png) | ![](https://cdn.d2.pub/files/image-hosting/20180729104152.png) |
+| ![](https://file.d2.pub/image/qiniu_20180727103812.png) | ![](https://file.d2.pub/image/qiniu_20180727103329.png) |
+| ![](https://file.d2.pub/image/qiniu_20180727103923.png) | ![](https://file.d2.pub/image/qiniu_20180727103931.png) |
+| ![](https://file.d2.pub/image/qiniu_20180727104208.png) | ![](https://file.d2.pub/image/qiniu_20180727104213.png) |
+| ![](https://file.d2.pub/image/qiniu_20180727104225.png) | ![](https://file.d2.pub/image/qiniu_20180727104232.png) |
+| ![](https://file.d2.pub/image/qiniu_20180727104240.png) | ![](https://file.d2.pub/image/qiniu_20180727104245.png) |
+| ![](https://file.d2.pub/image/qiniu_20180729104137.png) | ![](https://file.d2.pub/image/qiniu_20180729104152.png) |
 
 ### avue
 
@@ -56,10 +56,10 @@
 
 | D2Admin | avue |
 | --- | --- |
-| ![](https://cdn.d2.pub/files/image-hosting/20180729105741.png) | ![](https://cdn.d2.pub/files/image-hosting/20180729105748.png) |
-| ![](https://cdn.d2.pub/files/image-hosting/20180729110207.png) | ![](https://cdn.d2.pub/files/image-hosting/20180729110231.png) |
-| ![](https://cdn.d2.pub/files/image-hosting/20180729105822.png) | ![](https://cdn.d2.pub/files/image-hosting/20180729105839.png) |
-| ![](https://cdn.d2.pub/files/image-hosting/20180729105855.png) | ![](https://cdn.d2.pub/files/image-hosting/20180729105908.png) |
+| ![](https://file.d2.pub/image/qiniu_20180729105741.png) | ![](https://file.d2.pub/image/qiniu_20180729105748.png) |
+| ![](https://file.d2.pub/image/qiniu_20180729110207.png) | ![](https://file.d2.pub/image/qiniu_20180729110231.png) |
+| ![](https://file.d2.pub/image/qiniu_20180729105822.png) | ![](https://file.d2.pub/image/qiniu_20180729105839.png) |
+| ![](https://file.d2.pub/image/qiniu_20180729105855.png) | ![](https://file.d2.pub/image/qiniu_20180729105908.png) |
 
 ### iview admin pro
 
@@ -75,10 +75,10 @@
 
 | D2Admin | iview admin pro |
 | --- | --- |
-| ![](https://cdn.d2.pub/files/image-hosting/20200216120623.png) | ![](https://cdn.d2.pub/files/image-hosting/20200216122138.png) |
-| ![](https://cdn.d2.pub/files/image-hosting/20200216120820.png) | ![](https://cdn.d2.pub/files/image-hosting/20200216122213.png) |
-| ![](https://cdn.d2.pub/files/image-hosting/20200216120801.png) | ![](https://cdn.d2.pub/files/image-hosting/20200216122243.png) |
-| ![](https://cdn.d2.pub/files/image-hosting/20200216120735.png) | ![](https://cdn.d2.pub/files/image-hosting/20200216122303.png) |
+| ![](https://file.d2.pub/image/qiniu_20200216120623.png) | ![](https://file.d2.pub/image/qiniu_20200216122138.png) |
+| ![](https://file.d2.pub/image/qiniu_20200216120820.png) | ![](https://file.d2.pub/image/qiniu_20200216122213.png) |
+| ![](https://file.d2.pub/image/qiniu_20200216120801.png) | ![](https://file.d2.pub/image/qiniu_20200216122243.png) |
+| ![](https://file.d2.pub/image/qiniu_20200216120735.png) | ![](https://file.d2.pub/image/qiniu_20200216122303.png) |
 
 ## 更新日志
 

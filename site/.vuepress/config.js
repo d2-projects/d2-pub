@@ -2,12 +2,12 @@ module.exports = {
   title: 'D2开源组',
   description: 'https://d2.pub',
   head: [
-    ['link', { rel: 'icon', href: 'https://cdn.d2.pub/files/image-hosting/20200215125724.png' }],
+    ['link', { rel: 'icon', href: 'https://file.d2.pub/image/qiniu_20200215125724.png' }],
     ['script', {}, 'var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "https://hm.baidu.com/hm.js?a4d73e21496377fe9f2ddb6b8c97440e";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();']
   ],
   themeConfig: {
     // logo
-    logo: 'https://cdn.d2.pub/files/image-hosting/20200216220856.png',
+    logo: 'https://file.d2.pub/image/qiniu_20200216220856.png',
     // 仓库主页
     repo: 'https://github.com/d2-projects',
     // 自定义仓库链接文字

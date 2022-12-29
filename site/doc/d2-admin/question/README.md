@@ -26,7 +26,7 @@
 
 建议使用 [Free Download Manager](http://www.freedownloadmanager.org/download.htm) 下载，速度会有显著提升
 
-![](https://cdn.d2.pub/files/image-hosting/20180722210734.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://file.d2.pub/image/qiniu_20180722210734.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ## 无法启动项目
 
@@ -306,7 +306,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 如果您不清楚如何操作，建议您使用 [browsersync](http://www.browsersync.cn/) 快速达到目的。
 
-![](https://cdn.d2.pub/files/image-hosting/20180821144014.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://file.d2.pub/image/qiniu_20180821144014.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ## 灰度模式下弹出框被遮住
 

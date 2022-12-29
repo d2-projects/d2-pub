@@ -8,7 +8,7 @@ sidebar: auto
 
 [GitHub](https://github.com/d2-projects/storybook-vue)
 
-![](https://cdn.d2.pub/files/image-hosting/20200424155542.png)
+![](https://file.d2.pub/image/qiniu_20200424155542.png)
 
 ## 介绍
 
@@ -55,7 +55,7 @@ sidebar: auto
 
 首先进入 [项目主页](https://github.com/d2-projects/storybook-vue) 将项目 fork 至您的账号下，然后新建 GitHub 空仓库，模板选择 **storybook-vue**，并克隆到本地。
 
-![](https://cdn.d2.pub/files/image-hosting/20200424182544.png)
+![](https://file.d2.pub/image/qiniu_20200424182544.png)
 
 删除 docs 文件夹。
 
@@ -79,7 +79,7 @@ yarn dev
 
 ### github-ribbon
 
-![](https://cdn.d2.pub/files/image-hosting/20200424213459.png)
+![](https://file.d2.pub/image/qiniu_20200424213459.png)
 
 右上角的 GitHub 链接绶带，无可接受参数，使用了 [d2-ribbons](https://github.com/d2-projects/d2-ribbons) 中的设计，渲染效果是附带图片的 `position: fixed` 链接，固定在屏幕右上角，默认链接根据 package.json 中的信息自动指向当前仓库地址。
 
@@ -194,23 +194,23 @@ cz-cli@4.0.3, cz-conventional-changelog@3.1.0
 
 在开始部署之前您需要配置项目的 `ACCESS_TOKEN`。
 
-![](https://cdn.d2.pub/files/image-hosting/20200424171017.png)
+![](https://file.d2.pub/image/qiniu_20200424171017.png)
 
 进入个人设置，选择 `Developer settings` > `Personal access tokens` > `Generate new token` 创建新的 token，名称随意填写，权限勾选 repo。
 
-![](https://cdn.d2.pub/files/image-hosting/20200424171337.png)
+![](https://file.d2.pub/image/qiniu_20200424171337.png)
 
 点击 `Generate token` 完成创建，记录好生成的 token。
 
-![](https://cdn.d2.pub/files/image-hosting/20200424171604.png)
+![](https://file.d2.pub/image/qiniu_20200424171604.png)
 
 进入当前仓库的设置 > `Secrets` > `Add a new secret` 创建新的私有数据。`Name` 值为 `ACCESS_TOKEN`，`Value` 值为刚刚得到的 token。
 
-![](https://cdn.d2.pub/files/image-hosting/20200424172051.png)
+![](https://file.d2.pub/image/qiniu_20200424172051.png)
 
 点击 `Add secret` 完成创建。
 
-![](https://cdn.d2.pub/files/image-hosting/20200424172214.png)
+![](https://file.d2.pub/image/qiniu_20200424172214.png)
 
 至此部署准备完成。
 
@@ -235,12 +235,12 @@ git push origin master
 
 您可以在仓库的 Action 页面查看自动发版和部署情况：
 
-![](https://cdn.d2.pub/files/image-hosting/20200424184955.png)
+![](https://file.d2.pub/image/qiniu_20200424184955.png)
 
 在  Release pipeline 执行结束后，如果有新版本将会自动部署预览：
 
-![](https://cdn.d2.pub/files/image-hosting/20200424185123.png)
+![](https://file.d2.pub/image/qiniu_20200424185123.png)
 
 所有 Action 结束之后，您可以在仓库的设置页面看到该仓库对应的预览地址：
 
-![](https://cdn.d2.pub/files/image-hosting/20200424185259.png)
+![](https://file.d2.pub/image/qiniu_20200424185259.png)

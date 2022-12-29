@@ -4,7 +4,7 @@ sidebar: auto
 
 # Iconfont Desktop
 
-![](https://cdn.d2.pub/files/image-hosting/20201201130051.png)
+![](https://file.d2.pub/image/qiniu_20201201130051.png)
 
 [iconfont.cn](https://www.iconfont.cn/) 桌面版客户端，抛砖引玉，**只实现一部分功能**，具体效果见下方截图。
 
@@ -38,43 +38,43 @@ https://**cdn.d2.pub/mirrors**/d2-projects/iconfont-desktop/releases/download/vx
 
 主页
 
-![主页](https://cdn.d2.pub/files/image-hosting/20201201124629.png)
+![主页](https://file.d2.pub/image/qiniu_20201201124629.png)
 
 图标库
 
-![图标库](https://cdn.d2.pub/files/image-hosting/20201201124628.png)
+![图标库](https://file.d2.pub/image/qiniu_20201201124628.png)
 
 插画库
 
-![插画库](https://cdn.d2.pub/files/image-hosting/20201201124630.png)
+![插画库](https://file.d2.pub/image/qiniu_20201201124630.png)
 
 插画库详情
 
-![插画库详情](https://cdn.d2.pub/files/image-hosting/20201201124631.png)
+![插画库详情](https://file.d2.pub/image/qiniu_20201201124631.png)
 
 图标搜索
 
-![图标搜索](https://cdn.d2.pub/files/image-hosting/20201201124626.png)
+![图标搜索](https://file.d2.pub/image/qiniu_20201201124626.png)
 
 图标搜索 宽屏
 
-![图标搜索 宽屏](https://cdn.d2.pub/files/image-hosting/20201201124625.png)
+![图标搜索 宽屏](https://file.d2.pub/image/qiniu_20201201124625.png)
 
 个人中心
 
-![个人中心](https://cdn.d2.pub/files/image-hosting/20201201124624.png)
+![个人中心](https://file.d2.pub/image/qiniu_20201201124624.png)
 
 设置
 
-![设置](https://cdn.d2.pub/files/image-hosting/20201201124627.png)
+![设置](https://file.d2.pub/image/qiniu_20201201124627.png)
 
 Github 登录
 
-![Github 登录](https://cdn.d2.pub/files/image-hosting/20201201124632.png)
+![Github 登录](https://file.d2.pub/image/qiniu_20201201124632.png)
 
 微博登录
 
-![微博登录](https://cdn.d2.pub/files/image-hosting/20201201124633.png)
+![微博登录](https://file.d2.pub/image/qiniu_20201201124633.png)
 
 ## 相关
 
